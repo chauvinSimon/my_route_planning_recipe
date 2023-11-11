@@ -16,7 +16,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
 ```
 1) get inspiration
 2) connect the dots
-3) check and refine
+3) check and adjust
 ```
 
 ---
@@ -53,7 +53,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
     - [blogs](#desktop_computer-blogs)
     - [events](#confetti_ball-past-events) :star:
 - **[[2] Draft](#2-paintbrush-draft)**
-- **[[3] Check and fine-tune](#3-monocle_face-check-and-fine-tune)**
+- **[[3] Check and adjust](#3-monocle_face-check-and-adjust)**
   - [komoot warnings](#orange_circle-warning-komoot-routing-tips)
   - [elevation profile](#chart_with_upwards_trend-climbs)
   - [surface](#desert-surface)
@@ -69,8 +69,6 @@ On this page, I would like to **share my approach** to **designing routes** for 
   - [other maps](#world_map-other-maps) :star:
 - **[Conclusion](#dizzy-conclusion)**
   - [final steps](#footprints-final-steps)
-    - [export the route](#compass-route-export)
-    - [plan B](#adhesive_bandage-plan-b)
   - [missing tools](#boom-missing-tools) :star:
   - [criticisms](#exclamation-criticisms)
   - [final word](#wave-final-word)
@@ -636,7 +634,7 @@ It is time to **connect the waypoints** you have **identified** and/or adjust th
 The goals of this section are to: 
 - :writing_hand: Draft a route using your result(s) of the previous section. 
 - :white_check_mark: Make sure the **length** and **elevation** of the drafted route are ok for you.
-  - :+1: if not, **adjust** the drafted route.
+  - If not, **adjust** the drafted route.
 
 <details>
   <summary>Click to expand</summary>
@@ -658,10 +656,14 @@ For more details on [`komoot/plan`](https://www.komoot.com/plan):
 
 ---
 
-# 3 :monocle_face: Check and fine-tune
+# 3 :monocle_face: Check and adjust
 The goal of this section is to **optimize the drafted route**, making it **as enjoyable as possible**:
-- :telescope: First, on a **coarse** level: consider **re-routing** if necessary.
-- :microscope: Then, on a **finer** level: focus on **adjusting** small details. :mag:
+
+Below is a list of things to check.
+
+I advise you to:
+- :eyes: Check and adjust first on a **coarse** level: consider **re-routing** if necessary.
+- :microscope: Only then focus on **small details**. :mag:
 
 After completing this section, your route will be ready!
 
@@ -945,37 +947,29 @@ Before you go for your adventure, here a couple of **final words** and thoughts.
 
 #### :footprints: Final steps
 
-##### :compass: Route export
-
 <details>
   <summary>Click to expand</summary>
 
+:compass: 1- To navigate the route:
 - Either [navigate the route](https://support.komoot.com/hc/en-us/sections/360003611812-Navigation) using the `komoot` app.
-- Or **download the `.gpx` file** from `komoot` and use it on another device.
+- Or **download the `.gpx` file** from `komoot` and use it on another navigation device.
 
 :bulb: Tips:
 - **Non-premium users** of `komoot` can **download the `.gpx` file of the route** using the [`Komoot to GPX`](https://play.google.com/store/apps/details?id=com.spark71.komoottogpx) app.
   - Make sure to (temporary) make the route "public", otherwise the app will not manage to find and download it.
 
-</details>
-
-##### :adhesive_bandage: Plan-B
-
-<details>
-  <summary>Click to expand</summary>
-
-Your adventure, although **carefully planned**, could be disrupted by various factors.
+:adhesive_bandage: 2- Your adventure, although **carefully planned**, could be disrupted by various factors.
 
 Personal reasons:
 - Injury :face_with_head_bandage:
 - Mechanical problem :boom:
 
-Wxternal reasons:
+External reasons:
 - Delayed / cancelled transport, e.g. train/bus :hourglass_flowing_sand:
 - Blocked route :construction:
 - Changing weather :tornado:
 
-**Preparing a second route**, as a **variant**, may be useful!
+**Preparing an alternative route** may be useful!
 
 </details>
 
