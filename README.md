@@ -52,7 +52,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
     - [magazines](#newspaper_roll-magazines)
     - [blogs](#desktop_computer-blogs)
     - [events](#confetti_ball-past-events) :star:
-- **[[2] Draw](#2-paintbrush-draw)**
+- **[[2] Draft](#2-paintbrush-draft)**
 - **[[3] Check and fine-tune](#3-monocle_face-check-and-fine-tune)**
   - [komoot warnings](#orange_circle-warning-komoot-routing-tips)
   - [elevation profile](#chart_with_upwards_trend-climbs)
@@ -538,17 +538,17 @@ Currently, there is **no direct "search for others' activities" feature** in `st
 <details>
   <summary>Click to expand</summary>
 
-Some **outdoor magazines** publish inspiring **travel reports** about specific region, typically accompanied by beautiful pictures and **documented tours**.
+Some **outdoor magazines** publish inspiring **travel reports** about specific regions, typically accompanied by beautiful pictures and **documented tours**.
 
-Such articles often comes with a link to the tours, for instance [this one](https://www.mountainbike-magazin.de/vogesen1222/).
+Such articles often come with a link to the tours, for instance [this one](https://www.mountainbike-magazin.de/vogesen1222/).
 
-|             ![mountainbike_magazin.jpg](media/mountainbike_magazin.jpg)              | 
-|:------------------------------------------------------------------------------------:| 
-| *Tours included in a reportage about Vosges by `mountainbike-magazin` in `12/2022`.* |
+|             ![mountainbike_magazin.jpg](media/mountainbike_magazin.jpg)             | 
+|:-----------------------------------------------------------------------------------:| 
+| *Tours included in a reportage about Vosges by `mountainbike-magazin` in 12/2022.* |
 
-|                                ![komoot_mountainbike_magazin.gif](media/komoot_mountainbike_magazin.gif)                                | 
-|:---------------------------------------------------------------------------------------------------------------------------------------:| 
-| *The corresponding `komoot` collection, and an overview of the numerous other **collections published** by the mountain-bike magazine.* |
+|                              ![komoot_mountainbike_magazin.gif](media/komoot_mountainbike_magazin.gif)                              | 
+|:-----------------------------------------------------------------------------------------------------------------------------------:| 
+| *The corresponding `komoot` collection, and an overview of the numerous other **collections published** by `mountainbike-magazin`.* |
 
 </details>
 
@@ -559,11 +559,11 @@ Such articles often comes with a link to the tours, for instance [this one](http
 <details>
   <summary>Click to expand</summary>
 
-Enthusiastic local hikers often enjoy **sharing their best tours** and offering **insider tips**.
+Some enthusiastic local hikers enjoy **sharing their best tours** and offering **insider tips**, for instance [Sieben Inseln](https://siebeninseln.de/en/)
 
-|                       ![dagmar.gif](media/dagmar.gif)                        | 
-|:----------------------------------------------------------------------------:| 
-| *:+1: Kudos to this person who documents for free many hikes in her region.* |
+|                                              ![dagmar.gif](media/dagmar.gif)                                              | 
+|:-------------------------------------------------------------------------------------------------------------------------:| 
+| *:+1: Kudos to Dagmar from [Sieben Inseln](https://siebeninseln.de/en/) who documents for free many hikes in her region.* |
 
 </details>
 
@@ -574,9 +574,9 @@ Enthusiastic local hikers often enjoy **sharing their best tours** and offering 
 <details>
   <summary>Click to expand</summary>
 
-> Are you interested in walking, running, or riding the same route as a **past race** or **event**?"
+> Are you interested in walking, running, or riding a route of a **past event**, such as a **race**?"
 
-It can be easy to retrieve a `.gpx` of the route ...
+In some cases the `.gpx` of the route can easily be retrieved ...
 
 |                              ![kufsteiner_radmarathon.gif](media/kufsteiner_radmarathon.gif)                              | 
 |:-------------------------------------------------------------------------------------------------------------------------:| 
@@ -588,38 +588,39 @@ It can be easy to retrieve a `.gpx` of the route ...
 |:-----------------------------------------------------------:| 
 |    *How to retrieve an accurate route from this image?*     |
 
-:crayon: One option is to try to **draw the route from scratch**, e.g. with `komoot`, trying to **match the line** on the image with the paths known by `komoot` / `strava heatmap`.
+:crayon: One option is to try to manually **draw the route**, e.g. with `komoot`, trying to **match the line** on the image with paths known by `komoot` / `strava heatmap`.
 - Issue: apart from being **tedious**, this approach **may not be possible given the low resolution** of the image.
 
-:calendar: This event took place on `01.10.2023`.
-- _Why not **looking for a participant** and **get her/his activity**?_
-- _But what if **you do not know anyone** who took part?_
-- `strava` does not offer a `"find activity by name"` where the name of the event (e.g. `"transterritoire 2023"`) could be passed as a query.
+:eyes: Another option is to **look for the strava account of a participant** who recorded **this activity** and made it publicly available?
+- _But what if **you do not know anyone** who took part to the event?_
+ 
+:mag: A third option would be to look for strava activities having the name of the event (e.g. `"transterritoire 2023"`).
+- But `strava` does not offer such `"find an activity by name"` feature.
 
-:cook: Here is my recipe:
-- 1- Find a **strava segment** on the course.
-- 2- Check its **leaderboard**, which lists Strava members' performance on this segment.
-- 3- Find one that was performed **on the date of the event**.
-- 4- Look at the corresponding `strava` activity. :tada:
-
-The [`strava-segment-explorer`](https://support.strava.com/hc/en-us/articles/216918147-How-to-Find-Segments-on-the-Strava-Website) is a nice map that can be find at `strava.com` -> `discover` -> `discover segments`.
+:cook: Here is my (a bit advanced) recipe:
+- 1- Find a **`strava` segment** on the course (see Tips below).
+- 2- Check the **leaderboard** of this `strava` segment, which lists `strava` members' performances on this segment.
+- 3- Find one performance **on the date of the event**. :calendar:
+- 4- Access to the corresponding `strava` activity. :tada:
 
 :bulb: Tips:
+- The [`strava-segment-explorer`](https://support.strava.com/hc/en-us/articles/216918147-How-to-Find-Segments-on-the-Strava-Website) is a nice map that can be find at `strava.com` -> `discover` -> `discover segments`.
 - **`strava` segments** can be searched by `name` or `keyword`, e.g. the **name of the event**.
 - `strava` segments can also be searched using the excellent [`SegmentExplorer`](https://www.doogal.co.uk/SegmentExplorer) by `doogal.co.uk/`.
 
-|                                                                                                                                                                                                                                                                                                           ![transterritoire_segment.gif](media/transterritoire_segment.gif)                                                                                                                                                                                                                                                                                                            | 
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Finding a `strava segment` located on the course, **from a low-resolution image of this course**: roughly align the two maps (here a main road crosses a smaller road), identify a particular shape (here a nice straight line crossing a big road, followed by a climb), then zoom in on the `segment explorer` and align the maps using elements of the map (e.g. village names, lakes and roads), and look for **segments that could be on the actual route**. Open the segment page. Go to the `"women: all-time"` **leaderboard**. Check if some entries have the **date of the event**. If so, open the **corresponding activity** by clicking on the date (not the username).* |
+|                                                                                                                                                                                                                                                                                                         ![transterritoire_segment.gif](media/transterritoire_segment.gif)                                                                                                                                                                                                                                                                                                          | 
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Finding a `strava segment` located on the route, **from a low-resolution image of this course**: roughly align the two maps (here a main road crosses a smaller road), identify a particular shape on the route (here a nice straight line crossing a big road, followed by a climb), then zoom in on the `segment explorer` and align the two maps using their elements (e.g. village names, lakes and roads), and look for **segments that could be on the actual route**. Open the segment page. Go to the **leaderboard**. Check if some performances have the **date of the event**. If so, open the **corresponding activity** by clicking on the date (not the username).* |
 
-Two issues may occur when trying to find **segments on the actual route**:
-- The segment is **not laying on the actual course**.
+Two issues may occur when trying to find **segments on the route**:
+- The segment is **not laying on the route**.
   - Solution: try other segments.
-- The segment is on the course, but **nobody has entered the leaderboard on the date**.
-  - Solution-1: with `strava premium`, filters can be applied, for instance for a date.
-  - Solution-2: usually, **the `"women: all-time"` classification** is less busy than the `"men: all-time"`, therefore **more likely to contain activities on the particular date**.
+- The segment is on the route, but **no performance is listed** in the **top-10 leaderboard**, with the **date of the event**.
+  - Solution-0: with `strava premium`, one can see all performances in the leaderboard, not just the top-10.
+  - Solution-1: with `strava premium`, filters can be applied, for instance a "date" filter.
+  - Solution-2: usually, **the `"women: all-time"` classification** is less busy than the `"men: all-time"`, therefore it is **more likely to contain activities the date of the event**.
 
-:gift: Bonus: **_how to export a `.gpx`** from a **`strava` activity?_**
+:gift: Bonus: **how to export a `.gpx`** from a **`strava` activity?**
 - Option-1: use `strava premium`.
 - Option-2: there are some good tools around - look in `google-search`: [example1](https://glops.ee/glops-globalspark-ou/glops-ee-apps/), [example2](https://www.cycloworld.cc/article/how-to-download-a-strava-gpx-without-premium/1867).
 
@@ -628,28 +629,28 @@ Two issues may occur when trying to find **segments on the actual route**:
 ---
 ---
 
-# 2 :paintbrush: Draw
+# 2 :paintbrush: Draft
 
-It is time to **connect the waypoints** you have **identified**, and/or adjust the **route you have found**.
+It is time to **connect the waypoints** you have **identified** and/or adjust the **route you have found**.
 
-The goal of this section is to: 
-- :writing_hand: **Draft a route** that connects the **points of interest** of the previous section. 
-- :white_check_mark: Make sure the **distance** and the **elevation** is ok.
-- :+1: **Roughly adjust**.
+The goals of this section are to: 
+- :writing_hand: Draft a route using your result(s) of the previous section. 
+- :white_check_mark: Make sure the **length** and **elevation** of the drafted route are ok for you.
+  - :+1: if not, **adjust** the drafted route.
 
 <details>
   <summary>Click to expand</summary>
 
-|                                                                                                                                                ![komoot_drawing.gif](media/komoot_drawing.gif)                                                                                                                                                 | 
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| ***Drawing a route** with `komoot` is easy: define a `start`, a `destination`, and an `activity type`. That's it. Possibly adjust the computed path by **adding waypoints**. The goal of this section is to **check if the `length` and `elevation`** of the route are ok for you. Here **`40 km` may be a bit too much** for a one-day hike.* |
+|                                                                                                                                                               ![komoot_drawing.gif](media/komoot_drawing.gif)                                                                                                                                                                | 
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| ***Drafting a route** with [`komoot/plan`](https://www.komoot.com/plan) is easy: define a `start`, a `destination`, and an `activity type`. That's it. Further **waypoints** could be added to the drafted route. Now you can **check if the `length` and `elevation`** of the route are ok for you. In this example, **`40 km` may be a bit too much** for a one-day hike.* |
 
-For more details on **route drawing** in `komoot`:
+For more details on [`komoot/plan`](https://www.komoot.com/plan):
 - Check [Route Planner Tips and Tricks](https://www.komoot.com/help/routeplanner) by `komoot`.
 - Look for _"How to plan a route using `komoot`?"_ in a search-engine.
 
 :bulb: Tips:
-- You may have got a **`.gpx` file** from the previous section: `komoot` let easily **import** such file as a plan, and **edit it**.
+- You may have got a **`.gpx` file** from the previous section: `komoot` let you easily **import** such file as a `komoot/plan`, and **edit it**.
 
 </details>
 
