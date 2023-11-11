@@ -69,7 +69,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
   - [other maps](#world_map-other-maps) :star:
 - **[Conclusion](#dizzy-conclusion)**
   - [final steps](#footprints-final-steps)
-  - [missing tools](#boom-missing-tools) :star:
+  - [still missing](#boom-still-missing) :star:
   - [criticisms](#exclamation-criticisms)
   - [final word](#wave-final-word)
 
@@ -767,7 +767,7 @@ The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/477884815
 > Undecided between two options?
 - The `strava-global-heatmap` is a convenient tool to check which one is **more frequently used**, and therefore **potentially more reliable**.
 
-|                                                                                  ![difficulty.gif](media/difficulty.gif)                                                                                  | 
+|                                                                                      ![miotte.gif](media/miotte.gif)                                                                                      | 
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | *On the `komoot` planning map, **multiple variants are possible**. After **aligning the `strava-global-heatmap` with the `komoot-map`**, one can see that **the south-option is not frequented** at all.* |
 
@@ -950,7 +950,7 @@ Before you go for your adventure, here a couple of **final words** and thoughts.
 <details>
   <summary>Click to expand</summary>
 
-:compass: 1- To navigate the route:
+:compass: **1- To navigate the route:**
 - Either [navigate the route](https://support.komoot.com/hc/en-us/sections/360003611812-Navigation) using the `komoot` app.
 - Or **download the `.gpx` file** from `komoot` and use it on another navigation device.
 
@@ -958,16 +958,14 @@ Before you go for your adventure, here a couple of **final words** and thoughts.
 - **Non-premium users** of `komoot` can **download the `.gpx` file of the route** using the [`Komoot to GPX`](https://play.google.com/store/apps/details?id=com.spark71.komoottogpx) app.
   - Make sure to (temporary) make the route "public", otherwise the app will not manage to find and download it.
 
-:adhesive_bandage: 2- Your adventure, although **carefully planned**, could be disrupted by various factors.
-
-Personal reasons:
-- Injury :face_with_head_bandage:
-- Mechanical problem :boom:
-
-External reasons:
-- Delayed / cancelled transport, e.g. train/bus :hourglass_flowing_sand:
-- Blocked route :construction:
-- Changing weather :tornado:
+:adhesive_bandage: **2-** Your adventure, although **carefully planned**, could be disrupted by various factors:
+- Personal reasons:
+  - Injury :face_with_head_bandage:
+  - Mechanical problem :boom:
+- External reasons:
+  - Delayed / cancelled transport, e.g. train/bus :hourglass_flowing_sand:
+  - Blocked route :construction:
+  - Changing weather :tornado:
 
 **Preparing an alternative route** may be useful!
 
@@ -975,23 +973,27 @@ External reasons:
 
 ---
 
-#### :boom: Missing tools
+#### :boom: Still missing
 
-Below is a **list of features** that **would be very helpful** for planning routes.
+Below is a **list of missing features** that **would be very helpful** for planning routes.
+
+> Should you know **already existing solutions** or should you have **ideas**, please let me know! :pray:
 
 <details>
   <summary>Click to expand</summary>
 
-> Let me know if you know **already existing solutions** or have **ideas how to solve these points**! :pray:
-
-- :world_map: **Overlaying maps**.
-  - Some examples above were using both `strava-global-heatmap` and `komoot` maps in parallel.
-    - Their **alignment** was manually done - it would be convenient to **automate it**. :robot:
-  - Idea: this should not be too hard:
-    - Most maps uses **`latitudes` + `longitude` + `zoom` parameters**.
-    - **Aligning these parameters** should **align the maps**.
-  - Here [a very nice example](https://chrome.google.com/webstore/detail/id-strava-heatmap/eglbcifjafncknmpmnelckombmgddlco) of a chrome extension to **overlay the `strava-global-heatmap` onto the [`OpenStreetMap` iD editor](https://www.openstreetmap.org/)**. :+1:
+- :world_map: **How to overlay maps**.
+  - Some examples in previous sections (e.g. [usage frequency](#orange_heart-usage-frequency)) were using both `strava-global-heatmap` and `komoot` map in parallel.
+  - Ideally they should be overlaid in one single map.
+    - Here [a very nice example](https://chrome.google.com/webstore/detail/id-strava-heatmap/eglbcifjafncknmpmnelckombmgddlco) of a chrome extension to **overlay the `strava-global-heatmap` onto the [`OpenStreetMap` (in "iD editor" mode)](https://www.openstreetmap.org/)**. :+1:
     - It would be nice to extend this tool to other maps such as `komoot`.
+  - An alternative to merging aligned maps, is to have them opened in two tabs of the internet browser, and to quickly switching from one to another.
+    - The **alignment** of the two maps can be done manually, but it would be convenient to **automate it**. :robot:
+    - This should not be too hard:
+      - Most maps are displayed based on **`latitude` + `longitude` + `zoom`** parameters. For instance, you can try to identify the `lat`, `long` and `zoom` parameters in these two URLs:
+        - `https://www.strava.com/heatmap#11.42/-4.46321/48.33819/bluered/ride`
+        - `https://www.komoot.com/plan/@48.3332830,-4.4579533,10.304z?sport=racebike`
+      - **Equalizing these parameters** for `strava-global-heatmap` and `komoot` map should **align the maps**.
 
 - :vertical_traffic_light: **Traffic-lights counter**.
   - Current issue: `road-cycling` in a city can become a nightmare if **encountering traffic lights every `500m`**.
