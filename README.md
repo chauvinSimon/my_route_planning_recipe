@@ -733,17 +733,16 @@ Verify the `way type` and `surface type` and, if needed, **re-route specific par
 
 > **`Surface types`** describe the actual condition: whether it’s `sand`, `asphalt`, `cobblestones`, or `gravel` ([source](https://www.komoot.com/tour-characteristics)).
 
-|                                                                                                                                                                                                                                                                                                                                                  ![asphalt.gif](media/asphalt.gif)                                                                                                                                                                                                                                                                                                                                                  | 
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Checking the **surface** for a **road-cycling** tour: **clicking on the problematic surfaces** (see bar on the left) (`Unpaved: 272 m`, `Compacted Gravel: 966 m`, `Cobblestones: 1.12 km`) make the **map jump** to the corresponding sections. Then, using images showing the path (red highlights and **green dots on the map**), **one can decide if it is ok** to ride with a road-bike. **Alternatives can be considered** at the same time: in this example, **the `Compacted Gravel` section is not ideal**, but it is short and calm while the alternative (orange road) would add some steep climbs. The **`cobblestones` section** is also accepted, **based on pictures**, and will let the rider visit the old city.* |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ![asphalt.gif](media/asphalt.gif)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Checking the **surface** for a **road-cycling** tour: **clicking on the surfaces types** (see bar on the left) that **may be problematic for road bikes** (`Unpaved: 272 m`, `Compacted Gravel: 966 m`, `Cobblestones: 1.12 km`) make the **map jump** to the corresponding sections. Then, using images showing the path ([highlights](https://www.komoot.com/help/highlights) [red points on the map :red_circle:] and [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/4778848157082-Komoot-Trail-View-Show-pictures-of-the-trail) [**green dots on the map** :green_circle:]), **one can decide if it is ok** to ride with a road-bike. **Alternatives can be considered** at the same time: in this example, **the `Compacted Gravel` section is not ideal**, but it is short and calm while the alternative (orange road) would add some steep climbs. The **`cobblestones` section** is also accepted, **based on pictures**, and will let the rider visit the old city.* |
 
 :bulb: Tips:
 - :balance_scale: **Consider trade-offs**: **road-cycling tours** prefer **`asphalt` and `paved` surfaces**, but **small roads with less traffic** can also be appealing.
-  - On the one hand, `state roads` may offer **ideal surfaces**, but can be busy and potentially dangerous.
+  - On the one hand, `state roads` may offer **ideal surfaces**, but can be busy and potentially dangerous. However, safe cycleways may present on its side.
   - On the other hand, a **small street** with **`compact gravel` surface** may not be ideal for road-bike tires, but it can offer a **scenic ride**.
-- :computer_mouse: To **inspect parts of the route** with a given `surface`, **click on the `surface types`**: the map will jump to the corresponding parts.
-  - **Repeat clicking** to move to the next part.
-- :chart_with_upwards_trend: Display the `Waytypes and Surfaces` along with the **elevation plot** (bottom of the map) for an **overview of the characteristics** along the route.
+- :computer_mouse: To **inspect each segment of the route** with a given `surface type`, **repeat clicking on the given `surface type`**: each click makes the map jump to the respective segment.
+- :chart_with_upwards_trend: As demonstrated in the animation above, display the `Waytypes & Surfaces` together with the **elevation plot** (bottom of the map) for an **overview** along the route.
 
 </details>
 
@@ -754,12 +753,11 @@ Verify the `way type` and `surface type` and, if needed, **re-route specific par
 <details>
   <summary>Click to expand</summary>
 
-Evaluate the **technical difficulty** of the trails.
- Komoot sometimes  like the SAC Hiking Scale and MTB Single Track Scale.
+Evaluate the **technical difficulty** of trails possibly present in your route.
 
-`komoot` sometimes provides a **"difficulty level"** for `hiking` and `MTB` paths using different scales:
-- [SAC Hiking Scale](https://www.komoot.com/help/hiking-scale).
-- [MTB Single Track Scale](https://www.komoot.com/help/mtb-scale).
+`Komoot` sometimes provides a **"difficulty level"** for `hiking` and `MTB` paths using different scales:
+- [SAC Hiking Scale](https://www.komoot.com/help/hiking-scale). :switzerland:
+- [MTB Single Track Scale](https://www.komoot.com/help/mtb-scale). :mountain_bicyclist:
 
 |                                      ![difficulty.gif](media/difficulty.gif)                                      | 
 |:-----------------------------------------------------------------------------------------------------------------:| 
@@ -767,13 +765,14 @@ Evaluate the **technical difficulty** of the trails.
 
 The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/4778848157082-Komoot-Trail-View-Show-pictures-of-the-trail) is a feature to **see pictures of the actual site**, taken by other users.
 
-|                                                                                                                                                                                                                                                                             ![trail_view.gif](media/trail_view.gif)                                                                                                                                                                                                                                                                             | 
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Checking the **technical difficulty** of the a **mountain-bike downhill**: the **[single track scale](https://www.komoot.com/help/mtb-scale)** shows `S2` - but this feature seems restricted to `komoot` premium. [`trailforks`](https://www.trailforks.com/), despite using a different [scale system](https://www.trailforks.com/about/metadata/), can serve the same purpose. Other `komoot` features are helpful: first the **way-type (`singletrack`)**, its **surface (`natural`)** and its **slope (up to `~20%`)**. The **`komoot-trail-view`** is **really valuable** in this case.* |
+|                                                                                                                                                                                                                             ![trail_view.gif](media/trail_view.gif)                                                                                                                                                                                                                             | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Checking the **technical difficulty** of a **mountain-bike downhill**: the **[MTB single track scale](https://www.komoot.com/help/mtb-scale)** is displayed (`S2`) - but this information seems to be restricted to `komoot` premium users. `komoot` provides additional helpful information: the **way-type (`singletrack`)**, its **surface (`natural`)** and its **slope (up to `~20%`)**. The **`komoot-trail-view`** (green dot :green_circle:) is **really valuable** in this downhill.* |
 
-:bulb: Tips:
+:bulb: Tip:
 - The levels (`S0`, `S1` ... for MTB and `T0`, `T1` ... for run/hike) may only be available with a **`komoot` premium subscription**.
-- However, other websites, e.g. [`trailforks`](https://www.trailforks.com/), also provide reference to the **difficulties of popular trails**.
+  - However, other websites can reference the **difficulties of popular trails**.
+  - For instance the website [`trailforks`](https://www.trailforks.com/), despite using a different [scale system](https://www.trailforks.com/about/metadata/).
 
 </details>
 
@@ -784,17 +783,29 @@ The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/477884815
 <details>
   <summary>Click to expand</summary>
 
- between two options? The Strava Global Heatmap 
-> Undecided between two options?
-- The `strava-global-heatmap` is a convenient tool to check which one is **more frequently used**, and therefore **potentially more reliable**.
+_Undecided between two path options?_
+- The `strava-global-heatmap` is a VERY convenient tool to check which option is **more frequently used**, and therefore **potentially more reliable**.
 
-|                                                                                      ![miotte.gif](media/miotte.gif)                                                                                      | 
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *On the `komoot` planning map, **multiple variants are possible**. After **aligning the `strava-global-heatmap` with the `komoot-map`**, one can see that **the south-option is not frequented** at all.* |
+However, it may be difficult at a glance to **match corresponding locations** on the **two maps**:
+- 1- The `komoot` map used to draw your route.
+- 2- The `strava-global-heatmap`.
 
-|                                                                                                                                                                                                                                                                                                                                                                           ![morlaix.gif](media/morlaix.gif)                                                                                                                                                                                                                                                                                                                                                                            | 
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *`komoot` suggests to exit the "yellow road", **take a small lane**, and eventually come back to the yellow road. While changing lanes might be tedious (especially in downhill), `komoot` probably considers it beneficial as **"yellow roads" may be full of fast cars**. But looking at it closer, it **may not be the best option**. First, the alternative lane is **narrow and steeper**. Then, the `strava-global-heatmap` shows that **the yellow road is much more frequented**. Finally, the `street view` confirms that the yellow lane is **not that bad to ride**. Adding a waypoint excludes the lane, but another one is added* :sweat_smile: *The `strava-global-heatmap` showed almost no activity on it. Moving the route by **adding an extra waypoint** fixes it.* |
+My suggestion is to:
+- 1- Open the two maps in **two neighbouring tabs** in your internet browser.
+- 2- Zoom the `komoot` map on a **portion to be inspected**.
+- 3- **"Align"** the `strava-global-heatmap` with the `komoot` map:
+  - Iteratively **adjust the zoom and the position** of the `strava-global-heatmap`, until **both maps show same elements on same places of your screen** when switching between the two tabs.
+- 4- **Switch between the two tabs** (`ctrl+tab` and `ctrl+shift+tab`) to get an **overlaid view** and therefore be able to understand which options are the more frequented. 
+
+It would be very convenient to **automate this manual alignment method**, as listed in the [still missing](#boom-still-missing) section.
+
+|                                                                                                ![miotte.gif](media/miotte.gif)                                                                                                | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *On the `komoot` planning map, **multiple variants are possible**. After **aligning the `strava-global-heatmap` with the `komoot-map`**, as described above, one can see that **the south-option is not frequented** at all.* |
+
+|                                                                                                                                                                                                                                                                                                                                         ![morlaix.gif](media/morlaix.gif)                                                                                                                                                                                                                                                                                                                                          | 
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *`komoot` suggests to exit the "yellow road", **take a small lane**, and eventually come back to the "yellow road". While changing lanes might be tedious (especially in downhill), `komoot` probably considers it beneficial as **"yellow roads" may be full of fast cars**. But **avoiding the yellow road** may not be the best strategy here. Firstly, in this example, the alternative lane is **narrow and steeper**. Secondly, the `strava-global-heatmap` shows that **the yellow road is much more frequented**. Thirdly, the `google street view` confirms that the yellow lane is **not that bad to ride**. In order to **force `komoot` to keep the yellow road**, two waypoints on it must be added.* |
 
 </details>
 
@@ -805,44 +816,44 @@ The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/477884815
 <details>
   <summary>Click to expand</summary>
 
-It may not be enjoyable to walk or ride on a highly frequented road, especially for road cycling.
+It may not be enjoyable to walk or ride on a **highly frequented road**, especially for road cycling.
 
 While `komoot` already indicates the **type of road (`cycleway`, `street`, `state road` ...)**, it is worth verifying the **actual traffic**.
 
-|                                                                                                                                                                                                                                                       ![traffic.gif](media/traffic.gif)                                                                                                                                                                                                                                                        | 
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *This bridge should be easy to cross, shouldn't it? It is marked as **`cycleway`** by `komoot`. In addition, it seems **fairly frequented** by cyclists based on the `strava-global-heatmap`. But the **limited popularity** (`19/26`), the **comments** and the **`street-view`** give **hints** that it might **not be so easy**. In reality this section is **really impressive to ride**, due to the wind and the **fast vehicles driving very close to the cycling lane**. Unfortunately there is **not easy alternative** in this case.* |
+|                                                                                                                                                                                                                                                             ![traffic_bridge.gif](media/traffic_bridge.gif)                                                                                                                                                                                                                                                             | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *This bridge should be easy to cross, shouldn't it? It is marked as **`cycleway`** by `komoot`. In addition, it seems **fairly frequented** by cyclists based on the `strava-global-heatmap`. But the **limited popularity** (`19/26`), the **comments** and the **`street-view`** give **hints** that this bridge might **not be so easy to ride**. In reality cycling on this bridge is **really impressive to ride**, due to strong wind and **fast vehicles driving very close to the cycling lane**. Unfortunately there is **no easy alternative** in this case.* |
 
 
-|                                                                                                           ![traffic.gif](media/traffic.gif)                                                                                                           | 
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *The **traffic layer** of `google maps` can show the "typical traffic". This example look at the **traffic on the climb to San Marino** during the weekend: it seems **preferable to ride very early**, since roads usually get busy during the day.* |
+|                                                                                                            ![traffic.gif](media/traffic.gif)                                                                                                            | 
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *The **traffic layer** of `google maps` can show the "typical traffic". This example considers the **traffic on the climb to San Marino** during the weekend: it seems **preferable to ride very early**, since roads usually get busy during the day.* |
 
 </details>
 
 ---
 
-### :vertical_traffic_light: Traffic Lights
+#### :vertical_traffic_light: Traffic Lights
 
 <details>
   <summary>Click to expand</summary>
 
-Cycling in a city can become a nightmare if **encountering traffic lights every `500m`**:
+Cycling in a city can become a nightmare if **encountering plenty of traffic lights**:
 - Brake hard
-- Change gears
+- Change gears - if possible
 - Unclip
-- Waiting
-- Clip - or trying to! :stuck_out_tongue_winking_eye:
+- Wait
+- Clip - or try to! :stuck_out_tongue_winking_eye:
 - Accelerate
 - ... and repeat!
 
-Roads that with **fewer traffic lights** can be preferable, **even if they are longer**.
+Roads with **fewer traffic lights** can be preferable, **even if they are longer**.
 
-|                             ![traffic_lights.gif](media/traffic_lights.gif)                             | 
-|:-------------------------------------------------------------------------------------------------------:| 
-| *Using `google street view` and `google map` to **verify the presence of traffic lights** in a street.* |
+|                                                            ![traffic_lights.gif](media/traffic_lights.gif)                                                            | 
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *This example shows a simultaneous use of `google street view` (upper part) and `google map` (bottom part) to **verify the presence of traffic lights** in a street.* |
 
-:bulb: Tips:
+:warning: Issue:
 - Not all traffic lights are referenced in `google map`.
 
 This method to **select roads with few traffic lights** needs to be improved: see the [still missing](#boom-still-missing) section.
@@ -851,25 +862,25 @@ This method to **select roads with few traffic lights** needs to be improved: se
 
 ---
 
-### :sewing_needle: Smoothness
+#### :sewing_needle: Smoothness
 
 <details>
   <summary>Click to expand</summary>
 
-Remove any **irregularities in the trajectory** that may perturb the navigation.
+Remove any **irregularity in the route** that may perturb the navigation.
 
 |                                                                                           ![smoothing.png](media/smoothing.png)                                                                                            | 
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | This **discontinuity** does not affect the route much but **could disturb your navigation system** that will provide unnecessary instructions like *"take left at the next crossing, continue 5 m, turn back, turn left".* |
 
-|                                                                                                    ![smoothing.gif](media/smoothing.gif)                                                                                                     | 
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *When editing the route, two waypoints are moved. The resulting route looks smooth. As fine-tuning step, it is useful to check the **precise position of the waypoints**. Zooming-in shows that **`WP3` and `WP4` are wrongly positioned**.* |
+|                                                                                                 ![smoothing.gif](media/smoothing.gif)                                                                                                  | 
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *In this example, the user decides to edit the route and move waypoints `WP3` and `WP4`. The resulting route looks smooth at first sight. But zooming-in shows that **`WP3` and `WP4` are wrongly positioned at some intersections**.* |
 
 :bulb: Tips:
 - When you are satisfied with your plan, zoom in and check the **position of each waypoint**.
 - Avoid placing a waypoint **directly on an intersection**.
-  - If this does not break the route, try to **position it on the desired path**, just before or after the intersection.
+  - Try to position the waypoint **on the desired path**, just **before or after** the intersection.
 - Remove **unnecessary waypoints**.
 
 </details>
@@ -1050,7 +1061,7 @@ Below is a **list of missing features** that **would be very helpful** for plann
     - Here [a very nice example](https://chrome.google.com/webstore/detail/id-strava-heatmap/eglbcifjafncknmpmnelckombmgddlco) of a chrome extension to overlay the `strava-global-heatmap` onto the [`OpenStreetMap` (in "iD editor" mode)](https://www.openstreetmap.org/). :+1:
     - It would be nice to extend this tool to other maps such as `komoot`.
   - An alternative to merging two aligned maps into one single map, is to have the two aligned maps opened in two tabs of the internet browser, and to quickly switch from one to another (as done in the [usage frequency](#orange_heart-usage-frequency) section).
-    - The **alignment of the two maps** can be done manually, but it would be convenient to **automate it**. :robot:
+    - The **alignment of the two maps** can be done manually, as explained in the [usage frequency](#orange_heart-usage-frequency) section, but it would be convenient to **automate it**. :robot:
     - This should not be too hard:
       - Most maps are displayed based on **`latitude` + `longitude` + `zoom`** parameters.
       - For instance, you can try to identify the `lat`, `long` and `zoom` parameters in these two URLs:
@@ -1059,7 +1070,7 @@ Below is a **list of missing features** that **would be very helpful** for plann
       - **Equalizing these parameters** for `strava-global-heatmap` and `komoot` map should **align these two maps**.
 
 - :vertical_traffic_light: #2 **Traffic-lights counter**.
-  - Current issue: `road-cycling` in a city can become a nightmare if **encountering traffic lights every `500m`**.
+  - Current issue: `road-cycling` in a city can become a nightmare if **encountering plenty of traffic lights**.
   - It would be great to know, **given a planned cycling route**, the **number of traffic lights encountered**.
   - Idea-1: as a first estimate, this could be determined based on the **number of crossroads** along the route.
   - Idea-2: another approach could be to utilize `Google Maps`, which already provides information about **traffic lights** and **stop signs** along your route.
@@ -1122,5 +1133,7 @@ Please share yours ideas, especially regarding the [still missing](#boom-still-m
 Thank you in advance for your contributions. :pray:
 
 #### :wave: Final word
+
+I hope you enjoyed reading this page, and could learn something.
 
 Happy planning, but above all happy outdoor activity! :smiley:
