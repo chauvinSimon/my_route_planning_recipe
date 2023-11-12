@@ -37,6 +37,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
     - [around.us](#globe_with_meridians-aroundus)
     - [guided tours](#school_satchel-guided-tours) :star:
     - [geocaching](#detective-geocaching)
+    - [parking](#parking-parking)
     - [google My Maps](#world_map-my-maps)
   - **[[1.2] From routes](#12-routes)**
     - [komoot](#green_circle-komoot-1)
@@ -60,6 +61,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
   - [trail level](#bar_chart-trail-level--difficulty) :star:
   - [usage frequency](#orange_heart-usage-frequency) :star:
   - [traffic](#blue_car-traffic)
+  - [traffic lights](#vertical_traffic_light-traffic-lights)
   - [smoothness](#sewing_needle-smoothness)
   - [authorization and danger](#white_check_mark-authorisation--danger)
     - [safety](#rescue_worker_helmet-safety)
@@ -71,6 +73,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
   - [final steps](#footprints-final-steps)
   - [still missing](#boom-still-missing) :star:
   - [criticisms](#exclamation-criticisms)
+  - [your suggestions](#bulb-your-suggestions)
   - [final word](#wave-final-word)
 
 ---
@@ -303,6 +306,21 @@ This game, similar to **treasure hunting**, can provide location ideas for outdo
 - Idea for improvement: the favorite points (`FP`) should be **scaled by the number of visits**:
   - For example a cache found `20` times with `20` `FP` should stand out more than one found `10,000` time with only `25` `FP`.
 - A geocaching tour can sometimes **be more motivating** for **children** than a simple hike. :cartwheeling:
+
+</details>
+
+---
+
+#### :parking: Parking
+
+<details>
+  <summary>Click to expand</summary>
+
+A car park may be necessary to determine the **starting point** of the activity.
+ 
+|                                                                                                                    ![parking.gif](media/parking.gif)                                                                                                                    | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *One option is to search for "parking" on **`Google Maps`**, possibly using the **satellite view**, cross-check with **`Google Street View`**, and review the **latest comments** about the parking places to gather details such as size, price, and operating hours.* |
 
 </details>
 
@@ -792,6 +810,40 @@ While `komoot` already indicates the **type of road (`cycleway`, `street`, `stat
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | *This bridge should be easy to cross, shouldn't it? It is marked as **`cycleway`** by `komoot`. In addition, it seems **fairly frequented** by cyclists based on the `strava-global-heatmap`. But the **limited popularity** (`19/26`), the **comments** and the **`street-view`** give **hints** that it might **not be so easy**. In reality this section is **really impressive to ride**, due to the wind and the **fast vehicles driving very close to the cycling lane**. Unfortunately there is **not easy alternative** in this case.* |
 
+
+|                                                                                                           ![traffic.gif](media/traffic.gif)                                                                                                           | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *The **traffic layer** of `google maps` can show the "typical traffic". This example look at the **traffic on the climb to San Marino** during the weekend: it seems **preferable to ride very early**, since roads usually get busy during the day.* |
+
+</details>
+
+---
+
+### :vertical_traffic_light: Traffic Lights
+
+<details>
+  <summary>Click to expand</summary>
+
+Cycling in a city can become a nightmare if **encountering traffic lights every `500m`**:
+- Brake hard
+- Change gears
+- Unclip
+- Waiting
+- Clip - or trying to! :stuck_out_tongue_winking_eye:
+- Accelerate
+- ... and repeat!
+
+Roads that with **fewer traffic lights** can be preferable, **even if they are longer**.
+
+|                             ![traffic_lights.gif](media/traffic_lights.gif)                             | 
+|:-------------------------------------------------------------------------------------------------------:| 
+| *Using `google street view` and `google map` to **verify the presence of traffic lights** in a street.* |
+
+:bulb: Tips:
+- Not all traffic lights are referenced in `google map`.
+
+This method to **select roads with few traffic lights** needs to be improved: see the [still missing](#boom-still-missing) section.
+
 </details>
 
 ---
@@ -912,6 +964,13 @@ For instance, streets could be blocked due to a race:
 - Checking the event in a given region may give hints, but could be very tedious and still incomplete.
 - Usually such events take place during the weekend.
 
+|                ![closed_routes.gif](media/closed_routes.gif)                 | 
+|:----------------------------------------------------------------------------:| 
+| *The **traffic layer** of `google maps` can show currently blocked streets.* |
+
+This method to **find road blockage** needs to be improved: see the [still missing](#boom-still-missing) section.
+- In particular the example above reference **already planned blockages that have not started yet**.
+
 </details>
 
 ---
@@ -977,50 +1036,54 @@ Before you go for your adventure, here a couple of **final words** and thoughts.
 
 Below is a **list of missing features** that **would be very helpful** for planning routes.
 
-> Should you know **already existing solutions** or should you have **ideas**, please let me know! :pray:
+> Should you know **already existing solutions** or should you have **ideas**, please let me know (see the [suggestions]() section)! :pray:
 
 <details>
   <summary>Click to expand</summary>
 
-- :world_map: **How to overlay maps**.
+- :world_map: #1 **How to overlay maps**.
   - Some examples in previous sections (e.g. [usage frequency](#orange_heart-usage-frequency)) were using both `strava-global-heatmap` and `komoot` map in parallel.
   - Ideally they should be overlaid in one single map.
-    - Here [a very nice example](https://chrome.google.com/webstore/detail/id-strava-heatmap/eglbcifjafncknmpmnelckombmgddlco) of a chrome extension to **overlay the `strava-global-heatmap` onto the [`OpenStreetMap` (in "iD editor" mode)](https://www.openstreetmap.org/)**. :+1:
+    - Here [a very nice example](https://chrome.google.com/webstore/detail/id-strava-heatmap/eglbcifjafncknmpmnelckombmgddlco) of a chrome extension to overlay the `strava-global-heatmap` onto the [`OpenStreetMap` (in "iD editor" mode)](https://www.openstreetmap.org/). :+1:
     - It would be nice to extend this tool to other maps such as `komoot`.
-  - An alternative to merging aligned maps, is to have them opened in two tabs of the internet browser, and to quickly switching from one to another.
-    - The **alignment** of the two maps can be done manually, but it would be convenient to **automate it**. :robot:
+  - An alternative to merging two aligned maps into one single map, is to have the two aligned maps opened in two tabs of the internet browser, and to quickly switch from one to another (as done in the [usage frequency](#orange_heart-usage-frequency) section).
+    - The **alignment of the two maps** can be done manually, but it would be convenient to **automate it**. :robot:
     - This should not be too hard:
-      - Most maps are displayed based on **`latitude` + `longitude` + `zoom`** parameters. For instance, you can try to identify the `lat`, `long` and `zoom` parameters in these two URLs:
+      - Most maps are displayed based on **`latitude` + `longitude` + `zoom`** parameters.
+      - For instance, you can try to identify the `lat`, `long` and `zoom` parameters in these two URLs:
         - `https://www.strava.com/heatmap#11.42/-4.46321/48.33819/bluered/ride`
         - `https://www.komoot.com/plan/@48.3332830,-4.4579533,10.304z?sport=racebike`
-      - **Equalizing these parameters** for `strava-global-heatmap` and `komoot` map should **align the maps**.
+      - **Equalizing these parameters** for `strava-global-heatmap` and `komoot` map should **align these two maps**.
 
-- :vertical_traffic_light: **Traffic-lights counter**.
+- :vertical_traffic_light: #2 **Traffic-lights counter**.
   - Current issue: `road-cycling` in a city can become a nightmare if **encountering traffic lights every `500m`**.
   - It would be great to know, **given a planned cycling route**, the **number of traffic lights encountered**.
   - Idea-1: as a first estimate, this could be determined based on the **number of crossroads** along the route.
   - Idea-2: another approach could be to utilize `Google Maps`, which already provides information about **traffic lights** and **stop signs** along your route.
+    - As shown in the [traffic lights](#vertical_traffic_light-traffic-lights) section.
 
-- :oncoming_automobile: **Heatmap of cars**.
+- :oncoming_automobile: #3 **Heatmap of cars**.
   - While it's not always possible to road-cycle on `cycleways` (e.g. due to the surface), **sharing the road** with a high volume of vehicles is not ideal.
-  - Idea: it would be useful to find roads with **the less automotive traffic**. :wink:
+  - It would be useful to find roads with **the less automotive traffic**. :wink:
+  - Idea: the **traffic layer** of `google maps` can be used to estimate the usual traffic, as demonstrated in the [traffic lights](#vertical_traffic_light-traffic-lights) section.
 
-- :construction: Map of temporary blocked streets.
+- :construction: #4 Map of temporary **closed streets**.
   - Most maps focus on describing the space. There is **no time dimension**.
   - But indeed it changes over time. For instance, an **event could block certain streets**.
   - Visualizing such **modifications on the map**, based on the **date of the planned activity**, would be beneficial.
-  - Idea: such information should be available on the **website of some authorities**, to which organizers have declared their event.  
-
-- :motorway: Map with **asphalt quality**.
+  - Idea-1: such information should be available on the **website of some authorities**, to which organizers have declared their event.  
+  - Idea-2: `google maps` already reference some roads that are currently closed, as shown in the [temporary blockage](#no_entry-temporary-blockage) section. 
+ 
+- :motorway: #5 Map with **asphalt quality**.
   - What a pleasure it is to road cycle on **smooth asphalt**, without any irregularities! :hugs:
   - In contrast, it can be uncomfortable, energy-consuming, and attention-demanding to deal with a **road full of cracks** :face_with_spiral_eyes:
   - Idea: activity trackers, e.g. `garmin`, could **record and analyse the vibrations** during a road-cycling activity to **evaluate accordingly the smoothness** of each road
 
-- :juggling_person: Embed **multiple options inside one single `.gpx`**, and **decide which alternative to follow during the activity**.
+- :juggling_person: #6 Embed **multiple options inside one single `.gpx`**, and **decide which alternative to follow during the activity**.
   - `komoot` offers some features for **[`mid-Tour route adjustments`](https://www.komoot.com/garmin)**, but the alternative plan is not prepared in advance.
   - Idea: one possible solution is to incorporate **all the alternatives into a single route**, though this may affect the route summary (`elevation`, `distance`).
 
-- :parking: Reliable map of **parking parks**.
+- :parking: #7 Reliable map of **parking parks**.
   - A car park may be necessary to determine the **starting point** of the activity.
   - Idea: My current approach is to search for "parking" on **`Google Maps` using satellite view**, cross-check with **`Google Street View`**, and review the **latest comments** about the parking places to gather details such as size, price, and operating hours.
   - Having a backup plan is always a good idea.
@@ -1046,6 +1109,14 @@ While this can often ensure a nice outdoor adventure, a couple of points must be
 </details>
 
 ---
+
+#### :bulb: your suggestions
+
+Please share yours ideas, especially regarding the [still missing](#boom-still-missing) section:
+- :octocat: Either via [GitHub discussion](https://github.com/chauvinSimon/my_route_planning_recipe/discussions) (requires a GitHub account).
+- Or using [this shared document](todo).
+
+Thank you in advance for your contributions. :pray:
 
 #### :wave: Final word
 
