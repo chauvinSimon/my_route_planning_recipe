@@ -68,6 +68,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
     - [feasibility](#x-heavy_check_mark-feasibility)
     - [legal](#no_bicycles-legal)
   - [temporary blockage](#no_entry-temporary-blockage)
+  - [weather](#sun_behind_rain_cloud-weather)
   - [other maps](#world_map-other-maps) :star:
 - **[Conclusion](#dizzy-conclusion)**
   - [final steps](#footprints-final-steps)
@@ -115,6 +116,9 @@ It can be accessed in high-resolution with a **free `strava` account** _(let's h
 |                                       ![strava_display_settings.gif](media/strava_display_settings.gif)                                        | 
 |:----------------------------------------------------------------------------------------------------------------------------------------------:| 
 | *`strava global heatmap`: modifying the display settings to `red`, `label`, `standard`, and applying `only by foot` / `only by bike` filters.* |
+
+As mentioned in the [still missing](#boom-still-missing) section, it would be nice to have finer filters than `only by foot` / `only by bike`.
+- For instance `only by mountain-bike` or `only by road-bike`.
 
 |                                        ![winter_map_style.gif](media/winter_map_style.gif)                                         | 
 |:----------------------------------------------------------------------------------------------------------------------------------:| 
@@ -612,7 +616,7 @@ In some cases the `.gpx` of the route can easily be retrieved ...
 
 :eyes: Another option is to **look for the strava account of a participant** who recorded **this activity** and made it publicly available?
 - _But what if **you do not know anyone** who took part to the event?_
- 
+
 :mag: A third option would be to look for strava activities having the name of the event (e.g. `"transterritoire 2023"`).
 - But `strava` does not offer such `"find an activity by name"` feature.
 
@@ -624,7 +628,7 @@ In some cases the `.gpx` of the route can easily be retrieved ...
 
 :bulb: Tips:
 - The [`strava-segment-explorer`](https://support.strava.com/hc/en-us/articles/216918147-How-to-Find-Segments-on-the-Strava-Website) is a nice map that can be find at `strava.com` -> `discover` -> `discover segments`.
-- **`strava` segments** can be searched by `name` or `keyword`, e.g. the **name of the event**.
+- **`strava` segments** can be searched by `name` or `keyword`, e.g. the **name of the event**, using the [`strava-segment-search`](https://www.strava.com/segments/search)
 - `strava` segments can also be searched using the excellent [`SegmentExplorer`](https://www.doogal.co.uk/SegmentExplorer) by `doogal.co.uk/`.
 
 |                                                                                                                                                                                                                                                                                                         ![transterritoire_segment.gif](media/transterritoire_segment.gif)                                                                                                                                                                                                                                                                                                          | 
@@ -742,7 +746,7 @@ Verify the `way type` and `surface type` and, if needed, **re-route specific par
   - On the one hand, `state roads` may offer **ideal surfaces**, but can be busy and potentially dangerous. However, safe cycleways may present on its side.
   - On the other hand, a **small street** with **`compact gravel` surface** may not be ideal for road-bike tires, but it can offer a **scenic ride**.
 - :computer_mouse: To **inspect each segment of the route** with a given `surface type`, **repeat clicking on the given `surface type`**: each click makes the map jump to the respective segment.
-- :chart_with_upwards_trend: As demonstrated in the animation above, display the `Waytypes & Surfaces` together with the **elevation plot** (bottom of the map) for an **overview** along the route.
+- :chart_with_upwards_trend: As demonstrated in the animation above, display the `Waytypes & Surfaces` together with the **elevation profile** (bottom of the map) for an **overview** along the route.
 
 </details>
 
@@ -773,6 +777,9 @@ The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/477884815
 - The levels (`S0`, `S1` ... for MTB and `T0`, `T1` ... for run/hike) may only be available with a **`komoot` premium subscription**.
   - However, other websites can reference the **difficulties of popular trails**.
   - For instance the website [`trailforks`](https://www.trailforks.com/), despite using a different [scale system](https://www.trailforks.com/about/metadata/).
+- The `difficulty level`, as well as the `waytypes & surfaces` can help decide the **direction of the route** (`clockwise` or `counterclockwise`). :arrows_counterclockwise:
+  - I personally **prefer to hike up on technical trails**, and **walking down on easier and broader paths**.
+  - But this is the **opposite** for **mountain-bike**.
 
 </details>
 
@@ -935,8 +942,6 @@ To some extent, this needs to be checked for the route you have just created.
 
 </details>
 
----
-
 ##### :no_bicycles: Legal
 
 <details>
@@ -984,6 +989,44 @@ For instance, streets could be blocked due to a race:
 
 This method to **find road blockage** needs to be improved: see the [still missing](#boom-still-missing) section.
 - In particular the example above reference **already planned blockages that have not started yet**.
+
+</details>
+
+---
+
+#### :sun_behind_rain_cloud: Weather
+
+<details>
+  <summary>Click to expand</summary>
+
+The **weather conditions along your planned route** can be inspected using different tools:
+- [`komoot/premium/weather`](https://www.komoot.com/premium/weather):
+  - > "Worried you’re heading into bad weather? Find out ahead of time and **pack precisely the kit you’ll need** — thanks to **dynamic weather forecasts** that cover every inch of your adventure."
+  - Restricted to `komoot premium`
+- [`Epic Ride Weather`](https://www.epicrideweather.com/)
+  - > "`Epic Ride Weather` connects to your routes and rides in `Strava`, `Ride With GPS`, `Komoot` and other services. You **pick the route and start time**, and `Epic Ride Weather` **forecasts the weather for the duration of your ride** based on **your pace**."
+- And [many more](https://www.treadbikely.com/7-top-cycling-weather-apps-to-help-keep-you-dry-warm-safe/).
+
+|                                                                                                                                                                                 ![weather.gif](media/weather.gif)                                                                                                                                                                                 | 
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Ad for the **dynamic weather forecasts** by `komoot` ([source](https://www.komoot.com/premium/weather)). Weather information such as `temperature`, `precipitation`, `wind speed and direction`, `UV index` can be displayed for every single part of your route, similarly to the `waytypes & surfaces` and the `elevation profile` information. Forcast can be made **up to 48h** in advance.* |
+
+**Standard weather forecasts** are valuable, but **imperfect for outdoor activities**.
+- An **apparent temperature**, also known as "feels like", would be more appropriate: :thermometer:
+  - "It is the **temperature equivalent perceived by humans**, caused by the combined effects of air temperature, relative humidity and wind speed." ([wikipedia](https://en.wikipedia.org/wiki/Apparent_temperature)).
+
+:bulb: Tips:
+- Try to estimate which parts or your route will be:
+  - 1- **Exposed to the wind**. :wind_face:
+  - 2- **Shaded**. :first_quarter_moon:
+  - For example dense trees in a forest can protect you from the wind, while their leaves can shield you from the sun radiations. :evergreen_tree:
+- Multiple methods can be used:
+  - **Satellite views** (e.g. with `komoot`, `strava`, `google map`) give quick and reliable information about the **presence of forest**. :evergreen_tree:
+  - The **vegetation** and its **density** can also be estimated using the **map legend** and/or the **shades of green**. :deciduous_tree:
+    - For instance `dense forest`, `open forest`, `mountain pasture`, `meadow`, `rock`, `glacier` ...
+  - The **surrounding relief** should also be taken into account: A mighty mountain **in the west** can obscure the setting sun and **cause an earlier sunset**. :sunrise_over_mountains:
+- The **estimated `shadow` and `wind protection`** can help decide the **direction of the route** (`clockwise` or `counterclockwise`). :arrows_counterclockwise:
+  - I personally prefer to **climb hills up on in chilled conditions**, and **going down in hotter conditions**.
 
 </details>
 
@@ -1102,6 +1145,9 @@ Below is a **list of missing features** that **would be very helpful** for plann
   - Idea: My current approach is to search for "parking" on **`Google Maps` using satellite view**, cross-check with **`Google Street View`**, and review the **latest comments** about the parking places to gather details such as size, price, and operating hours.
   - Having a backup plan is always a good idea.
 
+- filters for `strava-global-heatmap`
+  - mountain-bike
+
 </details>
 
 ---
@@ -1128,7 +1174,7 @@ While this can often ensure a nice outdoor adventure, a couple of points must be
 
 Please share yours ideas, especially regarding the [still missing](#boom-still-missing) section:
 - :octocat: Either via [GitHub discussion](https://github.com/chauvinSimon/my_route_planning_recipe/discussions) (requires a GitHub account).
-- :writing_hand: Or using [this shared document](https://docs.google.com/spreadsheets/d/1LHQHqU8PP2Hqbw8CbKz5AFH1VM7DW6nje7Lc8mTH1Zk/edit?usp=sharing).
+- :writing_hand: Or using [this shared document](todo).
 
 Thank you in advance for your contributions. :pray:
 
