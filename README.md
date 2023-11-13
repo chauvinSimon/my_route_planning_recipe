@@ -38,7 +38,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
     - [Guided tours](#school_satchel-guided-tours) :star:
     - [Geocaching](#detective-geocaching)
     - [Parking](#parking-parking)
-    - [Uphill sections](#climbing-uphill-sections) :star:
+    - [Hilly spots](#climbing-hilly-spots) :star:
     - [Google My Maps](#world_map-my-maps)
   - **[[1.2] From routes](#12-routes)**
     - [Komoot](#green_circle-komoot-1)
@@ -88,7 +88,7 @@ Below, **two key tools**, that will be utilized throughout the subsequent sectio
 
 The majority of the showcased features are accessible with a basic **free account**. :smiley:
 
-Disclaimer: It is worth noting that while I find some of their tools fascinating, I do not have any vested interest in promoting `komoot` and `strava`.
+**Disclaimer:** It is worth noting that while I find some of their tools fascinating, I do not have any vested interest in promoting `komoot` and `strava`.
 
 #### :green_circle: Komoot
 
@@ -114,16 +114,16 @@ The [`strava global heatmap`](https://www.strava.com/heatmap) is a **visual repr
 
 It can be accessed in high-resolution with a **free `strava` account** _(let's hope it stays that way!)_.
 
-|                                       ![strava_display_settings.gif](media/strava_display_settings.gif)                                        | 
-|:----------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *`strava global heatmap`: modifying the display settings to `red`, `label`, `standard`, and applying `only by foot` / `only by bike` filters.* |
+|                                                     ![strava_display_settings.gif](media/strava_display_settings.gif)                                                     | 
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *`strava global heatmap`: modifying the display settings to `red`, `label`, `standard`, and applying `only by foot` (:athletic_shoe:) / `only by bike` (:bike:) filters.* |
 
 As mentioned in the [still missing](#boom-still-missing) section, it would be nice to have **finer filters**:
-- For instance `only by mountain-bike` and `only by road-bike`. :mountain_bicyclist: :bicyclist:
+- For instance `only by mountain-bike` (:mountain_bicyclist:) and `only by road-bike` (:bicyclist:)
 
-|                                        ![winter_map_style.gif](media/winter_map_style.gif)                                         | 
-|:----------------------------------------------------------------------------------------------------------------------------------:| 
-| *The **`winter` map style** :mountain_snow: often provides a **clear depiction of elevation**, even for summer activities :wink:.* |
+|                                           ![winter_map_style.gif](media/winter_map_style.gif)                                           | 
+|:---------------------------------------------------------------------------------------------------------------------------------------:| 
+|      *The **`winter` map style** :mountain_snow: often provides a **clear depiction of the terrain**, even for summer activities.*      |
 
 To learn more, refer to:
 - [This article](https://support.strava.com/hc/en-us/articles/216918877-Strava-Metro-and-the-Global-Heatmap)
@@ -339,20 +339,20 @@ A car park may be necessary to determine the **starting point** of the activity.
 <details>
   <summary>Click to expand</summary>
 
-Most previous sections were about finding attractive places with **nice views**. :camera_flash:
+Above sections were mainly about finding attractive places with **nice views**. :camera_flash:
 
-But you may also want to look for **training spots**. :muscle: For instance an **uphill/downhill workout**.
+But you may also want to look for **training spots**. :muscle: For instance for an **uphill/downhill workout**.
 
-Several options are available to find a spot for uphill/downhill training:
-- :mountain: You can inspect a map with a **`terrain`, `relief` or `3d` layer**, and identify **non-flat areas**.
-  - For instance `google map` with `terrain` layer, or `strava-global-heatmap` in `winter` mode (which **renders the relief very well**, as illustrated in [this section](#orange_circle-strava-global-heatmap-hotsprings)).
+Several options are available to find a spot for **uphill/downhill** training:
+- :mountain: You can inspect a map with a **`terrain` or `3d` layer**, and identify **non-flat areas**.
+  - For instance `google map` with `terrain` layer, or `strava-global-heatmap` with the `winter` map style (which **renders the terrain very well**, as illustrated in the [`strava global heatmap`](#orange_circle-strava-global-heatmap-hotsprings) section).
 - :trophy: You can also use **`strava-segments`**:
-  - "They are **portions of roads or trails** created by members where **athletes can compare times**".
-  - Use a **`strava segment explorer`** (either from [strava](https://support.strava.com/hc/en-us/articles/216918147-How-to-Find-Segments-on-the-Strava-Website) or from [`doogal.co.uk`](https://www.doogal.co.uk/SegmentExplorer), which allows **more filters** to be set) and use **filters** such as **`average grade`**, **`elevation diff`** or **`climb category`** to retrieve **uphill/downhill segments**.
+  - They are **portions of roads or trails** created by `strava` members where **athletes can compare times**.
+  - Use a **`strava segment explorer`** (either from [`doogal.co.uk`](https://www.doogal.co.uk/SegmentExplorer), which offers **more filters**, or from [strava](https://support.strava.com/hc/en-us/articles/216918147-How-to-Find-Segments-on-the-Strava-Website)) and apply **filters** such as **`average grade`**, **`elevation diff`** or **`climb category`** to retrieve **uphill/downhill segments**.
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                  ![uphill.gif](media/uphill.gif)                                                                                                                                                                                                                                                                                                                                                                                                                  | 
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *This example looks for a place in the north of Munich with **cycling climbs**. The `strava-global-heatmap` in **`winter` mode** gives a good overview of the terrain: an area with slope is identified (`Schloss Ottenburg`). Zooming in, a **small yet hilly round tour** is discovered. This place could be very good for a **uphill workout**. :weight_lifting: Then switching website and using the **`strava segment explorer` of [`doogal.co.uk`](https://www.doogal.co.uk/SegmentExplorer)**. The `Schloßberg` segment (`530m` at `5.3%`) is discovered (same hill as the one previously found using the `strava-global-heatmap`). Finally, using the **official `strava segment explorer`** - but its filter features are **really limited**: only **`climb category`** which does not even retrieve the `Schloßberg` segment which is not hard enough.* |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                  ![uphill.gif](media/uphill.gif)                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *This example shows how to look for a place in the north of Munich with **cycling climbs**. The `strava-global-heatmap`, with the **`winter` map style**, gives a good overview of the terrain: an area with slope is identified (`Schloss Ottenburg`). Zooming in, a **small yet hilly round tour** is discovered. This place could be very good for an **uphill workout** :weight_lifting:. Then the example switches website and uses the **`strava segment explorer` of [`doogal.co.uk`](https://www.doogal.co.uk/SegmentExplorer)**. The `Schloßberg` segment (`530m` at `5.3%`) is discovered (same hill as the one previously found using the `strava-global-heatmap`). Finally, the **official `strava segment explorer`** is used, but its filter features are **really limited**: only the **`climb category`** criteria, which does not even retrieve the `Schloßberg` segment (probably it is not steep/long enough).* |
 
 </details>
 
@@ -1027,40 +1027,38 @@ This method to **find road blockage** needs to be improved: see the [still missi
 The **weather conditions along your planned route** can be inspected using different tools:
 - [`komoot/premium/weather`](https://www.komoot.com/premium/weather):
   - > "Worried you’re heading into bad weather? Find out ahead of time and **pack precisely the kit you’ll need** — thanks to **dynamic weather forecasts** that cover every inch of your adventure."
-- [`Epic Ride Weather`](https://www.epicrideweather.com/)
+- [`Epic Ride Weather`](https://www.epicrideweather.com/):
   - > "`Epic Ride Weather` connects to your routes and rides in `Strava`, `Ride With GPS`, `Komoot` and other services. You **pick the route and start time**, and `Epic Ride Weather` **forecasts the weather for the duration of your ride** based on **your pace**."
 - And [many more](https://www.treadbikely.com/7-top-cycling-weather-apps-to-help-keep-you-dry-warm-safe/).
 
-|                                                                                                                                                                                                                                        ![weather.gif](media/weather.gif)                                                                                                                                                                                                                                         | 
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Ad for the **dynamic weather forecasts** by `komoot` ([source](https://www.komoot.com/premium/weather)). Weather information such as `temperature`, `precipitation`, `wind speed and direction`, `UV index` can be displayed for every single part of your route, similarly to the `waytypes & surfaces` and the `elevation profile` information. Forcast can be made **up to 48h** in advance. This `komoot` feature is restricted to premium users, but, as written above, many **free alternatives exist**.* |
+|                                                                                                                                                                                                                                    ![weather.gif](media/weather.gif)                                                                                                                                                                                                                                     | 
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Ad for the **dynamic weather forecasts** by `komoot` ([source](https://www.komoot.com/premium/weather)). Weather information such as `temperature`, `precipitation`, `wind speed and direction` and `UV index` can be displayed for every single part of your route, as well as `waytypes & surfaces` and `elevation profile` information. Forcast can be made **up to 48h** in advance. This `komoot` feature is restricted to premium users but, as written above, many **free alternatives exist**.* |
 
-**Standard weather forecasts** are valuable, but **imperfect for outdoor activities**.
-- An **apparent temperature**, also known as "feels like", would be more appropriate: :thermometer:
-  - "It is the **temperature equivalent perceived by humans**, caused by the combined effects of air temperature, relative humidity and wind speed." ([wikipedia](https://en.wikipedia.org/wiki/Apparent_temperature)).
+**Standard weather forecasts** are valuable, but **imperfect for outdoor activities** since they usually do not express an **apparent temperature**, which would be more appropriate: :thermometer:
+  - "The **apparent temperature**, also known as "feels like", is the **temperature equivalent perceived by humans**, caused by the combined effects of air temperature, relative humidity and wind speed." ([wikipedia](https://en.wikipedia.org/wiki/Apparent_temperature)).
 
 :bulb: Tips:
-- Try to estimate which parts or your route will be:
+- Try to estimate which parts of your route will be:
   - 1- **Exposed to the wind**. :wind_face:
   - 2- **Shaded**. :first_quarter_moon:
   - For example **dense trees in a forest** can protect you from the **wind**, while their leaves can shield you from the **sun radiations**.
 - Multiple methods can be used:
   - **Satellite views** (e.g. with `komoot`, `strava`, `google map`) give quick and reliable information about the **presence of forest**. :evergreen_tree:
-  - The **vegetation** and its **density** can also be estimated using the **map legend** and/or the **shades of green**. :deciduous_tree:
-    - For instance `dense forest`, `open forest`, `mountain pasture`, `meadow`, `rock`, `glacier` ...
-  - The **surrounding relief** should also be taken into account:
-    - See the distinction between **"adret" and "ubac"** below.
-    - A mighty mountain **in the west** can obscure the setting sun and **cause an earlier sunset**. :sunrise_over_mountains:
-- The **estimated `shadow` and `wind protection`** can help decide the **direction of the route** (`clockwise` or `counterclockwise`). :arrows_counterclockwise:
-  - I personally prefer to **climb hills up on in chilled conditions**, and **going down in hotter conditions**.
+  - The **vegetation** and its **density** can also be estimated using a **map legend** and/or the **shades of green** on the map. :deciduous_tree:
+    - For instance `dense forest`, `open forest`, `mountain pasture`, `meadow`, `rock`, `glacier` are possible **vegetation types** in the map legend.
+  - The **surrounding terrain** should also be taken into account:
+    - For instance a mighty mountain **in the west** can obscure the setting sun and therefore **cause an earlier sunset** for you. :sunrise_over_mountains:
+- Once you have **estimated the shadow and wind protection** along the route, you could decide the **direction of your route** (`clockwise` or `counterclockwise`). :arrows_counterclockwise:
+  - Personally, I prefer to climb hills in **cool conditions** and descend them in **warmer conditions**.
 
-|                                                                                                                                                                                                                                                                                                          ![vegetation.gif](media/vegetation.gif)                                                                                                                                                                                                                                                                                                          | 
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Inspecting the **vegetation along this route**, which, according to the elevation profile, consists of a **long climb** followed by a **flat portion on a ridge**. The `open-street-map` layer shows **`forest` as "vegetation type" for the climb** (:evergreen_tree:) while the ridge looks to be more like a **`meadow`** (light gray). The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/4778848157082-Komoot-Trail-View-Show-pictures-of-the-trail), the **satellite view**, and the `google street view` confirm these **vegetation types**. That means the ridge should be **more exposed to sun and wind** that the climb.* |
+|                                                                                                                                                                                                                                                                                                        ![vegetation.gif](media/vegetation.gif)                                                                                                                                                                                                                                                                                                         | 
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Inspecting the **vegetation along this route** which, according to the elevation profile, consists of a **long climb** followed by a **flat portion on a ridge**. The `OpenStreetMap` layer shows **`forest` as "vegetation type" for the climb** (:evergreen_tree:) while the ridge looks to be more like a **`meadow`** (light gray). The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/4778848157082-Komoot-Trail-View-Show-pictures-of-the-trail), the **satellite view**, and the `google street view` confirm these **vegetation types**. This means the ridge should be **more exposed to sun and wind** than the climb.* |
 
 |                                                                                                                                                          ![adret_ubac.png](media/adret_ubac.png)                                                                                                                                                           | 
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Bonus: Do you know the **terms "adret" and "ubac"** used in the **French Alps**? An **"adret" slope** is the land on the side of a valley that **receives the most sunlight**. Conversely, an **"ubac" slope** refers to the opposite side (cool and dark). ([source of image](https://www.reddit.com/r/geography/comments/11x1hve/the_adret_and_ubac/))* |
+| *Bonus: Do you know the **terms "adret" and "ubac"** used in the **French Alps**? An **"adret" slope** is the land on the side of a valley that **receives the most sunlight**. Conversely, an **"ubac" slope** refers to the opposite side (cool and dark). ([source of image](https://www.reddit.com/r/geography/comments/11x1hve/the_adret_and_ubac/))* |  
 
 </details>
 
