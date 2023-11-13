@@ -6,8 +6,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
 
 :warning: The methodology presented here may not be flawless:
 - Written in **2023**: the showcased features may well become outdated or improved over time.
-- Subject to criticism: refer to the **[potential criticisms](#exclamation-criticisms) section**.
-- Not exhaustive: be sure to check the **[missing tools](#boom-missing-tools) section** - *perhaps you are already aware of existing alternatives or have the ideas and time to create them.*
+- Not exhaustive: be sure to check the **[missing tools](#boom-missing-tools) section**. Perhaps you are already aware of existing alternatives or have the ideas and time to create them -> **check the [Your suggestions](#bulb-your-suggestions) section**.
 
 ---
 
@@ -1182,8 +1181,8 @@ Here's a list of **features I'm missing** and that **would be very useful** for 
 
 #### :bulb: Your suggestions
 
-Please share yours ideas, especially regarding the [still missing](#boom-still-missing) section:
-- :writing_hand: Either using [this simple formular](https://docs.google.com/forms/d/e/1FAIpQLScgrrCysrXNq9Qw0BJqhunEIBJP5DI7sBOo4C_252cmF-BiuA/viewform?usp=pp_url) (answers are collected in [this sheet](https://docs.google.com/spreadsheets/d/1u2Oft7vMjWEVYwtMM103Te_eZmmfZ9dV1k3d8lbGbkc/edit?usp=sharing)).
+**Please share yours ideas**, especially regarding the [still missing](#boom-still-missing) section:
+- :writing_hand: **Either using :arrow_right: [this simple formular](https://docs.google.com/forms/d/e/1FAIpQLScgrrCysrXNq9Qw0BJqhunEIBJP5DI7sBOo4C_252cmF-BiuA/viewform?usp=pp_url) :arrow_left:** (answers are collected in [this sheet](https://docs.google.com/spreadsheets/d/1u2Oft7vMjWEVYwtMM103Te_eZmmfZ9dV1k3d8lbGbkc/edit?usp=sharing)).
 - :octocat: Or via [GitHub discussion](https://github.com/chauvinSimon/my_route_planning_recipe/discussions) (requires a GitHub account).
 
 Thank you in advance for your contributions. :pray:
