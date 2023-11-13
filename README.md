@@ -74,9 +74,8 @@ On this page, I would like to **share my approach** to **designing routes** for 
 - **[Conclusion](#dizzy-conclusion)**
   - [Final steps](#footprints-final-steps)
   - [Still missing](#boom-still-missing) :star:
-  - [Criticisms](#exclamation-criticisms)
   - [Your suggestions](#bulb-your-suggestions)
-  - [Final word](#wave-final-word)
+  - [Final word](#wave-final-words)
 
 ---
 
@@ -345,7 +344,7 @@ But you may also want to look for **training spots**. :muscle: For instance for 
 
 Several options are available to find a spot for **uphill/downhill** training:
 - :mountain: You can inspect a map with a **`terrain` or `3d` layer**, and identify **non-flat areas**.
-  - For instance `google map` with `terrain` layer, or `strava-global-heatmap` with the `winter` map style (which **renders the terrain very well**, as illustrated in the [`strava global heatmap`](#orange_circle-strava-global-heatmap-hotsprings) section).
+  - For instance `google maps` with `terrain` layer, or `strava-global-heatmap` with the `winter` map style (which **renders the terrain very well**, as illustrated in the [`strava global heatmap`](#orange_circle-strava-global-heatmap-hotsprings) section).
 - :trophy: You can also use **`strava-segments`**:
   - They are **portions of roads or trails** created by `strava` members where **athletes can compare times**.
   - Use a **`strava segment explorer`** (either from [`doogal.co.uk`](https://www.doogal.co.uk/SegmentExplorer), which offers **more filters**, or from [strava](https://support.strava.com/hc/en-us/articles/216918147-How-to-Find-Segments-on-the-Strava-Website)) and apply **filters** such as **`average grade`**, **`elevation diff`** or **`climb category`** to retrieve **uphill/downhill segments**.
@@ -818,7 +817,7 @@ The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/477884815
 _Undecided between two path options?_
 - The `strava-global-heatmap` is a VERY convenient tool to check which option is **more frequently used**, and therefore **potentially more reliable**.
 
-However, it may be difficult at a glance to **match corresponding locations** on the **two maps**:
+However, it may be difficult for the eyes to **match corresponding locations** on the **two maps**:
 - 1- The `komoot` map used to draw your route.
 - 2- The `strava-global-heatmap`.
 
@@ -881,12 +880,12 @@ Cycling in a city can become a nightmare if **encountering plenty of traffic lig
 
 Roads with **fewer traffic lights** can be preferable, **even if they are longer**.
 
-|                                                            ![traffic_lights.gif](media/traffic_lights.gif)                                                            | 
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *This example shows a simultaneous use of `google street view` (upper part) and `google map` (bottom part) to **verify the presence of traffic lights** in a street.* |
+|                                                            ![traffic_lights.gif](media/traffic_lights.gif)                                                             | 
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *This example shows a simultaneous use of `google street view` (upper part) and `google maps` (bottom part) to **verify the presence of traffic lights** in a street.* |
 
 :warning: Issue:
-- Not all traffic lights are referenced in `google map`.
+- Not all traffic lights are referenced in `google maps`.
 
 This method to **select roads with few traffic lights** needs to be improved: see the [still missing](#boom-still-missing) section.
 
@@ -923,7 +922,7 @@ Remove any **irregularity in the route** that may perturb the navigation.
 
 > When downloading a piece of software or opening an attached file in an email, do you not make sure these are `legal` and `safe`?
 
-To some extent, this needs to be checked for the route you have just created.
+It needs to be checked that the route you have just created is **safe**, **feasible** and **legal**.
 
 ##### :rescue_worker_helmet: Safety
 
@@ -936,18 +935,18 @@ To some extent, this needs to be checked for the route you have just created.
 
 > "Sometimes they do it **just for the photo**, because these trails and their views always **look great on social media** and offer **breathtaking panoramic views**. Other times they do it **for pure daring**, since small, little-used paths and complicated passages can be **very attractive** if you are **seeking an adrenaline rush**. The truth is that these [dangerous] routes have become fashionable among the most adventurous and often people do not really understand the **danger to which they are are exposing themselves to**."
 
-|                                                                                                                                                    ![guimar.gif](media/guimar.gif)                                                                                                                                                     | 
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Example of the `Ventanas de Güímar` (Guimar windows): it looks **wonderful**, doesn't it?! The trustworthy `Rother` references it and even as "`TOP`". **Tons of `.gpx` files can easily be found**. But while a serious blog **mentions some risks**, another warns: "this is **not an official trail** and is **not maintained**".* |
+|                                                                                                                                                                                                                               ![guimar.gif](media/guimar.gif)                                                                                                                                                                                                                               | 
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Example of the `Ventanas de Güímar` (Guimar windows): it looks **wonderful**, doesn't it?! The trustworthy `Rother` guide even references it as "`TOP`". **Tons of `.gpx` files about this tour can easily be found**. In the mean time, a blog **mentions some serious risks**, and another one even warns: "this is **not an official trail** and is **not maintained**". Conclusion: **inform yourself** using **different sources** and **weight risks** according to your condition.* |
 
 :bulb: Tips:
 - Check the **date**: when was the tour posted?
 - Look at the **comments** and the description.
-- Look for the **official website** to find the list of closed paths.
+- Look for a **website** of the region where you plan to go, in order to find **an up-to-date list of opened and closed paths**.
 
-|                                             ![onf.gif](media/onf.gif)                                              | 
-|:------------------------------------------------------------------------------------------------------------------:| 
-| *Checking the **list of closed paths** on an **official website**. Making sure the information is **up-to-date**.* |
+|                                                   ![onf.gif](media/onf.gif)                                                   | 
+|:-----------------------------------------------------------------------------------------------------------------------------:| 
+| *Checking the **list of opened and closed paths** on an **official website**. Making sure the information is **up-to-date**.* |
 
 </details>
 
@@ -956,14 +955,14 @@ To some extent, this needs to be checked for the route you have just created.
 <details>
   <summary>Click to expand</summary>
 
-|                                                                                                                                                                                                                                                                                   ![volcano.gif](media/volcano.gif)                                                                                                                                                                                                                                                                                   | 
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Example of the `piton de la fournaise`: on `outdoor-active`, the **official local tourist office** (it should be reliable, right?) promotes [a mountain-bike tour](https://www.outdooractive.com/en/route/mountain-biking/reunion-island/au-piton-de-la-fournaise-en-vtt/20504218/) marked as `TOP`. The `.gpx` is easily exported and imported to `komoot`. A first warning comes: "the route includes segments that are highly dangerous (for `6.31 km`). Finally the trail view offered by `google street view` ends to make it clear: this **route would be infeasible** with a mountain-bike".* |
+|                                                                                                                                                                                                                                                                                              ![volcano.gif](media/volcano.gif)                                                                                                                                                                                                                                                                                               | 
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Example of the `piton de la fournaise`: on `outdoor-active`, the **official local tourist office** (it should be reliable, right?) promotes [a mountain-bike tour](https://www.outdooractive.com/en/route/mountain-biking/reunion-island/au-piton-de-la-fournaise-en-vtt/20504218/) marked as `TOP`. The `.gpx` is easily exported and imported to `komoot`. A first warning comes: "the route includes segments that are highly dangerous (for `6.31 km` out of `11.9 km`)". In addition, the trail view offered by `google street view` ends to make it clear: this **route would for many mountain-bikers infeasible**.* |
 
 :bulb: Tips:
-- In the above example, the `strava global heatmap` shows some "cycling" activity (though **considerably less** compared to the activity on the main road).
-  - It might be people who came by bike and **recorded the hike** while **still in `cycling` mode**.
-  - In case of doubt, checking the **street view on the considered path** in `komoot` planner really helps.
+- Be aware that the `strava global heatmap` may contain **wrongly-labelled** activities. In the above example, the `strava global heatmap` shows some activity when applying the **"only-by-bike" filter** (:bike:), whereas as shown above the route is not suitable for most cyclists.
+  - Strava users may have come by bike and **recorded the hike** while **still in `cycling` mode**.
+  - In case of doubt, checking the **`google street view` on the considered path** in `komoot` really helps.
 
 </details>
 
@@ -974,11 +973,11 @@ To some extent, this needs to be checked for the route you have just created.
 
 While a spot may be **technically safe** and **easy enough** to access (in addition of being beautiful), it can still be **forbidden**. This especially applies to cycling.
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                           ![teide_eggs.gif](media/teide_eggs.gif)                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Example of the `Huevos del Teide`: these **trails look amazing** for mountain-biking, don't they?! A **`.gpx` file** is quickly and **easily found**. But then **warnings** start to accumulate: `komoot` marks most of the route as "**not permitted for cycling**". The `strava global heatmap` shows almost no activity in this zone (except the climb to `montana blanca`). While many MTB trails are referenced by [`trailforks`](https://www.trailforks.com/region/parque-nacional-del-teide-50478/?activitytype=1&z=10.2&lat=28.27946&lon=-16.58554) on the island, there are none inside Teide National Park. Finally, the official text of **local government** states the **prohibition**. Back to the [nice MTB pic](https://fotografiaycielo.com/portafolio/con-la-bici-en-los-huevos-del-teide/): "If this image motivates you to take your MTB and ride on the trail, you should know that you do so **at your own risk**".* :raised_eyebrow: |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ![teide_eggs.gif](media/teide_eggs.gif)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Example of the `Huevos del Teide`: these **trails look amazing** for mountain-biking, don't they?! I find in `google image` a [nice MTB pic](https://fotografiaycielo.com/portafolio/con-la-bici-en-los-huevos-del-teide/) of this place featuring a mountain-bike. A **`.gpx` file** can be quickly and **easily found**. But then **warnings** start to accumulate: when importing the `.gpx` file to `komoot`, `komoot` marks most of the route as "**not permitted for cycling**". The `strava global heatmap` shows almost no activity in this zone (except the climb to `montana blanca`). While many MTB trails are referenced by [`trailforks`](https://www.trailforks.com/region/parque-nacional-del-teide-50478/?activitytype=1&z=10.2&lat=28.27946&lon=-16.58554) on the island, there are none inside Teide National Park. Finally, the official text of **local government** states the **prohibition**. Back to the [nice MTB pic](https://fotografiaycielo.com/portafolio/con-la-bici-en-los-huevos-del-teide/): "If this image motivates you to take your MTB and ride on the trail, you should know that you do so **at your own risk**".* :raised_eyebrow: |
 
-Personal experience: when riding with mountain-bikes on asphalt roads, guards of the national parks kept looking at us, and as we stopped for a break they were reminding that cycling on the trails of the Teide National Park is strictly prohibited. Having prepared a route on the forbidden trails could have been embarrassing.
+Conclusion of the above example: **do ignore the warnings** and use **diverse information sources** in order to ensure you are not planning to ride on routes forbidden by the local government.
 
 </details>
 
@@ -993,7 +992,7 @@ A construction site or a one-day event could **block your route**.
 
 ---
 
-##### :construction: Long term
+##### :construction: Long term blockage
 
 |                                                                                                                                                                            ![barrier.gif](media/barrier.gif)                                                                                                                                                                            | 
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
@@ -1001,19 +1000,18 @@ A construction site or a one-day event could **block your route**.
 
 ---
 
-##### :no_entry_sign: Short term
+##### :no_entry_sign: Short term blockage
 
-For instance, streets could be blocked due to a race:
-- Such info is **not easy to found**!
-- Checking the event in a given region may give hints, but could be very tedious and still incomplete.
-- Usually such events take place during the weekend.
+For instance, streets could be blocked due to a race, a market, a demonstration, a street festival ...
+- Such info is **not easy to find**!
+- Looking for **all the events** happening in a given region at a certain date may give hints, but could be very tedious and still incomplete.
 
 |                ![closed_routes.gif](media/closed_routes.gif)                 | 
 |:----------------------------------------------------------------------------:| 
 | *The **traffic layer** of `google maps` can show currently blocked streets.* |
 
-This method to **find road blockage** needs to be improved: see the [still missing](#boom-still-missing) section.
-- In particular the example above reference **already planned blockages that have not started yet**.
+The example above **only references current blockages** that **have already started**.
+- It would be nice to know **in advance** which blockages are planned **for a certain date**. See the [still missing](#boom-still-missing) section.
 
 </details>
 
@@ -1044,7 +1042,7 @@ The **weather conditions along your planned route** can be inspected using diffe
   - 2- **Shaded**. :first_quarter_moon:
   - For example **dense trees in a forest** can protect you from the **wind**, while their leaves can shield you from the **sun radiations**.
 - Multiple methods can be used:
-  - **Satellite views** (e.g. with `komoot`, `strava`, `google map`) give quick and reliable information about the **presence of forest**. :evergreen_tree:
+  - **Satellite views** (e.g. with `komoot`, `strava`, `google maps`) give quick and reliable information about the **presence of forest**. :evergreen_tree:
   - The **vegetation** and its **density** can also be estimated using a **map legend** and/or the **shades of green** on the map. :deciduous_tree:
     - For instance `dense forest`, `open forest`, `mountain pasture`, `meadow`, `rock`, `glacier` are possible **vegetation types** in the map legend.
   - The **surrounding terrain** should also be taken into account:
@@ -1069,15 +1067,15 @@ The **weather conditions along your planned route** can be inspected using diffe
 <details>
   <summary>Click to expand</summary>
 
-Utilize different maps, for example:
+You can utilize **further different maps** to **refine** your planned tour, for example:
 
 - [:fr:](https://ignrando.fr/)
 - [:switzerland:](https://map.geo.admin.ch/)
 - [`outdoor-active`](https://www.outdooractive.com/)
 
-|                                                                    ![miotte3.gif](media/miotte3.gif)                                                                     | 
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *The **maps of `komoot` and `IGN` differ**: some path exists on one and not on the other. the `strava-global-heatmap` shows that the **`komoot` map looks up-to-date**.* |
+|                                                                            ![miotte3.gif](media/miotte3.gif)                                                                            | 
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *The **maps of `komoot` and `IGN` differ**: some paths exist on one map and not on the other. The `strava-global-heatmap` shows that the **`komoot` map seems to be more up-to-date**.* |
 
 </details>
 
@@ -1123,77 +1121,60 @@ Before you go for your adventure, here a couple of **final words** and thoughts.
 
 #### :boom: Still missing
 
-Below is a **list of missing features** that **would be very helpful** for planning routes.
-
-> Should you know **already existing solutions** or should you have **ideas**, please let me know (see the [your suggestions](#bulb-your-suggestions) section)! :pray:
+Here's a list of **features I'm missing** and that **would be very useful** for planning routes.
+- Should you know **already existing solutions** or should you have **ideas**, please let me know (see the [your suggestions](#bulb-your-suggestions) section)! :pray:
 
 <details>
   <summary>Click to expand</summary>
 
 - :world_map: #1 **How to overlay maps**.
-  - Some examples in previous sections (e.g. [usage frequency](#orange_heart-usage-frequency)) were using both `strava-global-heatmap` and `komoot` map in parallel.
-  - Ideally they should be overlaid in one single map.
-    - Here [a very nice example](https://chrome.google.com/webstore/detail/id-strava-heatmap/eglbcifjafncknmpmnelckombmgddlco) of a chrome extension to overlay the `strava-global-heatmap` onto the [`OpenStreetMap` (in "iD editor" mode)](https://www.openstreetmap.org/). :+1:
-    - It would be nice to extend this tool to other maps such as `komoot`.
-  - An alternative to merging two aligned maps into one single map, is to have the two aligned maps opened in two tabs of the internet browser, and to quickly switch from one to another (as done in the [usage frequency](#orange_heart-usage-frequency) section).
-    - The **alignment of the two maps** can be done manually, as explained in the [usage frequency](#orange_heart-usage-frequency) section, but it would be convenient to **automate it**. :robot:
+  - Some examples in previous sections (e.g. [usage frequency](#orange_heart-usage-frequency)) were using both `strava-global-heatmap` and `komoot-map` in parallel.
+  - It would be **very convenient to have these two maps merged into one single map**.
+    - Here is [a very good example](https://chrome.google.com/webstore/detail/id-strava-heatmap/eglbcifjafncknmpmnelckombmgddlco) of a chrome extension which allows to overlay the `strava-global-heatmap` onto the [`OpenStreetMap` (in "iD editor" mode)](https://www.openstreetmap.org/). :+1:
+    - It would be useful to extend this tool to other maps such as `komoot`.
+  - As explained in the [usage frequency](#orange_heart-usage-frequency) section, an alternative to merging two aligned maps into one single map is to **align the two maps** opened in two neighbouring tabs of the internet browser, and to **quickly switch** from one to another.
+    - The **alignment of the two maps** can be done manually, but it would be great to **automate it**. :robot:
     - This should not be too hard:
-      - Most maps are displayed based on **`latitude` + `longitude` + `zoom`** parameters.
-      - For instance, you can try to identify the `lat`, `long` and `zoom` parameters in these two URLs:
-        - `https://www.strava.com/heatmap#11.42/-4.46321/48.33819/bluered/ride`
-        - `https://www.komoot.com/plan/@48.3332830,-4.4579533,10.304z?sport=racebike`
-      - **Equalizing these parameters** for `strava-global-heatmap` and `komoot` map should **align these two maps**.
+      - Most maps are displayed based on **`latitude`, `longitude` and `zoom`** parameters. You can see below that these **three parameters are present in the two URLs** of `strava` and `komoot`, for example:
+        - `https://www.strava.com/heatmap#11.42/-4.46321/48.33819/bluered/ride` (format: `zoom`/`longitude`/`latitude`)
+        - `https://www.komoot.com/plan/@48.3332830,-4.4579533,10.304z?sport=racebike` (format: `latitude`,`longitude`,`zoom`)
+      - **Equalizing these three parameters** for the two websites of `strava` and `komoot` should **align their maps**.
 
 - :vertical_traffic_light: #2 **Traffic-lights counter**.
   - Current issue: `road-cycling` in a city can become a nightmare if **encountering plenty of traffic lights**.
-  - It would be great to know, **given a planned cycling route**, the **number of traffic lights encountered**.
+  - It would be great to determined, **given a planned cycling route**, the **number of traffic lights contained in the route**.
   - Idea-1: as a first estimate, this could be determined based on the **number of crossroads** along the route.
   - Idea-2: another approach could be to utilize `Google Maps`, which already provides information about **traffic lights** and **stop signs** along your route.
     - As shown in the [traffic lights](#vertical_traffic_light-traffic-lights) section.
 
 - :oncoming_automobile: #3 **Heatmap of cars**.
-  - While it's not always possible to road-cycle on `cycleways` (e.g. due to the surface), **sharing the road** with a high volume of vehicles is not ideal.
-  - It would be useful to find roads with **the less automotive traffic**. :wink:
+  - While it's not always possible to road-cycle exclusively on `cycleways` (e.g. some of them have a gravel surface), **sharing the road** with a high volume of vehicles is not ideal.
+  - It would be useful to find roads with **the less possible automotive traffic**. :wink:
   - Idea: the **traffic layer** of `google maps` can be used to estimate the usual traffic, as demonstrated in the [traffic lights](#vertical_traffic_light-traffic-lights) section.
 
 - :construction: #4 Map of temporary **closed streets**.
-  - Most maps focus on describing the space. There is **no time dimension**.
-  - But indeed it changes over time. For instance, an **event could block certain streets**.
+  - Most maps focus on describing the space. There is **no time dimension**. But indeed maps can change over time: For instance, a **race event** or a **construction site could block certain streets**.
   - Visualizing such **modifications on the map**, based on the **date of the planned activity**, would be beneficial.
-  - Idea-1: such information should be available on the **website of some authorities**, to which organizers have declared their event.  
-  - Idea-2: `google maps` already reference some roads that are currently closed, as shown in the [temporary blockage](#no_entry-temporary-blockage) section. 
+  - Idea-1: **local authorities** should be aware of coming events (organizers have declared). Maybe they could communicate this to `komoot` or `strava`.
+  - Idea-2: `google maps` already references some roads that are currently closed, as shown in the [temporary blockage](#no_entry-temporary-blockage) section. 
  
+| ![asphalt.jpg](media/asphalt.jpg) | 
+|:---------------------------------:| 
+|             Asphalt.              |
+
 - :motorway: #5 Map with **asphalt quality**.
   - What a pleasure it is to road cycle on **smooth asphalt**, without any irregularities! :hugs:
-  - In contrast, it can be uncomfortable, energy-consuming, and attention-demanding to deal with a **road full of cracks** :face_with_spiral_eyes:
-  - Idea: activity trackers, e.g. `garmin`, could **record and analyse the vibrations** during a road-cycling activity to **evaluate accordingly the smoothness** of each road
+  - In contrast, it can be uncomfortable, energy-consuming, and attention-demanding to deal with a **road full of cracks**. :face_with_spiral_eyes:
+  - Idea: activity trackers, e.g. `garmin`, could **record and analyse the vibrations** during a road-cycling activity, in order to **accordingly evaluate the smoothness** of each road.
 
-- :juggling_person: #6 Embed **multiple options inside one single `.gpx`**, and **decide which alternative to follow during the activity**.
+- :juggling_person: #6 Embed **multiple options inside one single `.gpx`**, in order for the user to **decide during the activity which alternative to follow**.
   - `komoot` offers some features for **[`mid-Tour route adjustments`](https://www.komoot.com/garmin)**, but the alternative plan is not prepared in advance.
-  - Idea: one possible solution is to incorporate **all the alternatives into a single route**, though this may affect the route summary (`elevation`, `distance`).
+  - Idea: one possible solution is to incorporate **all the alternatives into a single route**, this may affect the route summary (`elevation`, `distance`) though.
 
 - :spaghetti: #7 Miscellaneous.
   - :mountain_bicyclist: **Mountain-bike filter** for `strava-global-heatmap`.
-  - :last_quarter_moon: Map showing **areas that are shaded** given a date and a time. 
-  - :parking: Reliable map of **parking parks**.
-
-</details>
-
----
-
-#### :exclamation: Criticisms
-
-<details>
-  <summary>Click to expand</summary>
-
-The presented method **leverages experiences of other people**: `comments`, `pictures`, `routes`.
-
-While this can often ensure a nice outdoor adventure, a couple of points must be kept in mind:
-
-- :star_struck: Do not check every detail in advance; leave room for surprise and wonder.
-- :sheep: Do not become a [mouton de Panurge](https://en.wiktionary.org/wiki/mouton_de_Panurge), i.e. one sheep who follows a group without thinking for himself.
-- :rescue_worker_helmet: Safety first.
-- :partying_face: A `plan` must stay a `plan`: feel free to **improvise** while on the terrain.
+  - :last_quarter_moon: A map showing **shaded areas** based on a date and time.
+  - :parking: A reliable map of **car parks** (near your tour starting point).
 
 </details>
 
@@ -1207,7 +1188,16 @@ Please share yours ideas, especially regarding the [still missing](#boom-still-m
 
 Thank you in advance for your contributions. :pray:
 
-#### :wave: Final word
+---
+
+#### :wave: Final words
+
+A couple of final suggestions from my side:
+
+- :star_struck: Do not check every detail in advance; leave room for surprise and wonder.
+- :sheep: `strava-global-heatmap` is a fantastic tool, but do not become a [mouton de Panurge](https://www.frenchlearner.com/expressions/comme-les-moutons-de-panurge/), i.e. one sheep who follows a group without thinking for himself.
+- :rescue_worker_helmet: Safety first. Accept to
+- :partying_face: A `plan` must stay a `plan`: feel free to **improvise** while on the terrain.
 
 I hope you enjoyed reading this page, and could learn something.
 
