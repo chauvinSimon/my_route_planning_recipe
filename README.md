@@ -26,56 +26,57 @@ On this page, I would like to **share my approach** to **designing routes** for 
 > My favourite sections are marked with :star:.
 
 - **[Essential tools](#hammer_and_wrench-essential-tools)**
-  - [komoot](#green_circle-komoot)
-  - [strava heatmap](#orange_circle-strava-global-heatmap-hotsprings)
+  - [Komoot](#green_circle-komoot)
+  - [Strava global heatmap](#orange_circle-strava-global-heatmap-hotsprings)
 - **[[1] Get inspired](#1-star_struck-get-inspired)**
   - **[[1.1] From points](#11-pushpin-points)**
-    - [komoot highlights](#green_circle-komoot-highlights)
-    - [google travel](#airplane-google-travel) :star:
-    - [tourist information](#information_source-tourist-information-website)
-    - [books and blogs](#books-books-and-blogs)
-    - [around.us](#globe_with_meridians-aroundus)
-    - [guided tours](#school_satchel-guided-tours) :star:
-    - [geocaching](#detective-geocaching)
-    - [parking](#parking-parking)
-    - [google My Maps](#world_map-my-maps)
+    - [Komoot highlights](#green_circle-komoot-highlights)
+    - [Google travel](#airplane-google-travel) :star:
+    - [Tourist information](#information_source-tourist-information-website)
+    - [Books and blogs](#books-books-and-blogs)
+    - [Around.us](#globe_with_meridians-aroundus)
+    - [Guided tours](#school_satchel-guided-tours) :star:
+    - [Geocaching](#detective-geocaching)
+    - [Parking](#parking-parking)
+    - [Uphill sections](#climbing-uphill-sections) :star:
+    - [Google My Maps](#world_map-my-maps)
   - **[[1.2] From routes](#12-routes)**
-    - [komoot](#green_circle-komoot-1)
-      - [suggestions](#green_circle1---1-tour-suggestions)
-      - [collections](#green_circle2---books-collections)
-      - [suggestions around a highlight](#green_circle3---pushpin-suggestions-around-a-highlight)
-    - [outdoor-active](#mountain-outdoor-active)
-    - [strava](#orange_circle-strava)
-      - [strava global heatmap](#orange_circle1---hotsprings-strava-global-heatmap) :star: :star:
-      - [premium suggestions](#orange_circle2---nail_care-strava-premium-suggestions)
-      - [activities via segments](#orange_circle3---eyes-strava-activities-via-segments) :star:
-    - [rother](#closed_book-rother) :star:
-    - [magazines](#newspaper_roll-magazines)
-    - [blogs](#desktop_computer-blogs)
-    - [events](#confetti_ball-past-events) :star:
+    - [Komoot](#green_circle-komoot-1)
+      - [Suggestions](#green_circle1---1-tour-suggestions)
+      - [Collections](#green_circle2---books-collections)
+      - [Suggestions around a highlight](#green_circle3---pushpin-suggestions-around-a-highlight)
+    - [Outdoor-active](#mountain-outdoor-active)
+    - [Strava](#orange_circle-strava)
+      - [Strava global heatmap](#orange_circle1---hotsprings-strava-global-heatmap) :star: :star:
+      - [Premium suggestions](#orange_circle2---nail_care-strava-premium-suggestions)
+      - [Activities via segments](#orange_circle3---eyes-strava-activities-via-segments) :star:
+    - [Rother](#closed_book-rother) :star:
+    - [Magazines](#newspaper_roll-magazines)
+    - [Blogs](#desktop_computer-blogs)
+    - [Past events](#confetti_ball-past-events) :star:
 - **[[2] Draft](#2-paintbrush-draft)**
 - **[[3] Check and adjust](#3-monocle_face-check-and-adjust)**
-  - [komoot warnings](#orange_circle-warning-komoot-routing-tips)
-  - [elevation profile](#chart_with_upwards_trend-climbs)
-  - [surface](#desert-surface)
-  - [trail level](#bar_chart-trail-level--difficulty) :star:
-  - [usage frequency](#orange_heart-usage-frequency) :star:
-  - [traffic](#blue_car-traffic)
-  - [traffic lights](#vertical_traffic_light-traffic-lights)
-  - [smoothness](#sewing_needle-smoothness)
-  - [authorization and danger](#white_check_mark-authorisation--danger)
-    - [safety](#rescue_worker_helmet-safety)
-    - [feasibility](#x-heavy_check_mark-feasibility)
-    - [legal](#no_bicycles-legal)
-  - [temporary blockage](#no_entry-temporary-blockage)
-  - [weather](#sun_behind_rain_cloud-weather)
-  - [other maps](#world_map-other-maps) :star:
+  - [Komoot warnings](#orange_circle-warning-komoot-routing-tips)
+  - [Elevation profile](#chart_with_upwards_trend-climbs)
+  - [Surface](#desert-surface)
+  - [Trail level](#bar_chart-trail-level--difficulty) :star:
+  - [Usage frequency](#orange_heart-usage-frequency) :star:
+  - [Traffic](#blue_car-traffic)
+  - [Traffic lights](#vertical_traffic_light-traffic-lights)
+  - [Smoothness](#sewing_needle-smoothness)
+  - [Authorization and danger](#white_check_mark-authorisation--danger)
+    - [Safety](#rescue_worker_helmet-safety)
+    - [Feasibility](#x-heavy_check_mark-feasibility)
+    - [Legal](#no_bicycles-legal)
+  - [Temporary blockage](#no_entry-temporary-blockage)
+  - [Weather](#sun_behind_rain_cloud-weather)
+  - [Other maps](#world_map-other-maps) :star:
 - **[Conclusion](#dizzy-conclusion)**
-  - [final steps](#footprints-final-steps)
-  - [still missing](#boom-still-missing) :star:
-  - [criticisms](#exclamation-criticisms)
-  - [your suggestions](#bulb-your-suggestions)
-  - [final word](#wave-final-word)
+  - [Final steps](#footprints-final-steps)
+  - [Still missing](#boom-still-missing) :star:
+  - [Criticisms](#exclamation-criticisms)
+  - [Your suggestions](#bulb-your-suggestions)
+  - [Final word](#wave-final-word)
 
 ---
 
@@ -117,8 +118,8 @@ It can be accessed in high-resolution with a **free `strava` account** _(let's h
 |:----------------------------------------------------------------------------------------------------------------------------------------------:| 
 | *`strava global heatmap`: modifying the display settings to `red`, `label`, `standard`, and applying `only by foot` / `only by bike` filters.* |
 
-As mentioned in the [still missing](#boom-still-missing) section, it would be nice to have finer filters than `only by foot` / `only by bike`.
-- For instance `only by mountain-bike` or `only by road-bike`.
+As mentioned in the [still missing](#boom-still-missing) section, it would be nice to have **finer filters**:
+- For instance `only by mountain-bike` and `only by road-bike`. :mountain_bicyclist: :bicyclist:
 
 |                                        ![winter_map_style.gif](media/winter_map_style.gif)                                         | 
 |:----------------------------------------------------------------------------------------------------------------------------------:| 
@@ -328,6 +329,30 @@ A car park may be necessary to determine the **starting point** of the activity.
 
 :bulb: Tips:
 - `komoot` highlights, and their users comments, can also provide valuable information about parking options. 
+
+</details>
+
+---
+
+#### :climbing: Hilly spots
+
+<details>
+  <summary>Click to expand</summary>
+
+Most previous sections were about finding attractive places with **nice views**. :camera_flash:
+
+But you may also want to look for **training spots**. :muscle: For instance an **uphill/downhill workout**.
+
+Several options are available to find a spot for uphill/downhill training:
+- :mountain: You can inspect a map with a **`terrain`, `relief` or `3d` layer**, and identify **non-flat areas**.
+  - For instance `google map` with `terrain` layer, or `strava-global-heatmap` in `winter` mode (which **renders the relief very well**, as illustrated in [this section](#orange_circle-strava-global-heatmap-hotsprings)).
+- :trophy: You can also use **`strava-segments`**:
+  - "They are **portions of roads or trails** created by members where **athletes can compare times**".
+  - Use a **`strava segment explorer`** (either from [strava](https://support.strava.com/hc/en-us/articles/216918147-How-to-Find-Segments-on-the-Strava-Website) or from [`doogal.co.uk`](https://www.doogal.co.uk/SegmentExplorer), which allows **more filters** to be set) and use **filters** such as **`average grade`**, **`elevation diff`** or **`climb category`** to retrieve **uphill/downhill segments**.
+
+|                                                                                                                                                                                                                                                                                                                                                                                                                  ![uphill.gif](media/uphill.gif)                                                                                                                                                                                                                                                                                                                                                                                                                  | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *This example looks for a place in the north of Munich with **cycling climbs**. The `strava-global-heatmap` in **`winter` mode** gives a good overview of the terrain: an area with slope is identified (`Schloss Ottenburg`). Zooming in, a **small yet hilly round tour** is discovered. This place could be very good for a **uphill workout**. :weight_lifting: Then switching website and using the **`strava segment explorer` of [`doogal.co.uk`](https://www.doogal.co.uk/SegmentExplorer)**. The `Schloßberg` segment (`530m` at `5.3%`) is discovered (same hill as the one previously found using the `strava-global-heatmap`). Finally, using the **official `strava segment explorer`** - but its filter features are **really limited**: only **`climb category`** which does not even retrieve the `Schloßberg` segment which is not hard enough.* |
 
 </details>
 
@@ -1002,14 +1027,13 @@ This method to **find road blockage** needs to be improved: see the [still missi
 The **weather conditions along your planned route** can be inspected using different tools:
 - [`komoot/premium/weather`](https://www.komoot.com/premium/weather):
   - > "Worried you’re heading into bad weather? Find out ahead of time and **pack precisely the kit you’ll need** — thanks to **dynamic weather forecasts** that cover every inch of your adventure."
-  - Restricted to `komoot premium`
 - [`Epic Ride Weather`](https://www.epicrideweather.com/)
   - > "`Epic Ride Weather` connects to your routes and rides in `Strava`, `Ride With GPS`, `Komoot` and other services. You **pick the route and start time**, and `Epic Ride Weather` **forecasts the weather for the duration of your ride** based on **your pace**."
 - And [many more](https://www.treadbikely.com/7-top-cycling-weather-apps-to-help-keep-you-dry-warm-safe/).
 
-|                                                                                                                                                                                 ![weather.gif](media/weather.gif)                                                                                                                                                                                 | 
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Ad for the **dynamic weather forecasts** by `komoot` ([source](https://www.komoot.com/premium/weather)). Weather information such as `temperature`, `precipitation`, `wind speed and direction`, `UV index` can be displayed for every single part of your route, similarly to the `waytypes & surfaces` and the `elevation profile` information. Forcast can be made **up to 48h** in advance.* |
+|                                                                                                                                                                                                                                        ![weather.gif](media/weather.gif)                                                                                                                                                                                                                                         | 
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Ad for the **dynamic weather forecasts** by `komoot` ([source](https://www.komoot.com/premium/weather)). Weather information such as `temperature`, `precipitation`, `wind speed and direction`, `UV index` can be displayed for every single part of your route, similarly to the `waytypes & surfaces` and the `elevation profile` information. Forcast can be made **up to 48h** in advance. This `komoot` feature is restricted to premium users, but, as written above, many **free alternatives exist**.* |
 
 **Standard weather forecasts** are valuable, but **imperfect for outdoor activities**.
 - An **apparent temperature**, also known as "feels like", would be more appropriate: :thermometer:
@@ -1019,14 +1043,24 @@ The **weather conditions along your planned route** can be inspected using diffe
 - Try to estimate which parts or your route will be:
   - 1- **Exposed to the wind**. :wind_face:
   - 2- **Shaded**. :first_quarter_moon:
-  - For example dense trees in a forest can protect you from the wind, while their leaves can shield you from the sun radiations. :evergreen_tree:
+  - For example **dense trees in a forest** can protect you from the **wind**, while their leaves can shield you from the **sun radiations**.
 - Multiple methods can be used:
   - **Satellite views** (e.g. with `komoot`, `strava`, `google map`) give quick and reliable information about the **presence of forest**. :evergreen_tree:
   - The **vegetation** and its **density** can also be estimated using the **map legend** and/or the **shades of green**. :deciduous_tree:
     - For instance `dense forest`, `open forest`, `mountain pasture`, `meadow`, `rock`, `glacier` ...
-  - The **surrounding relief** should also be taken into account: A mighty mountain **in the west** can obscure the setting sun and **cause an earlier sunset**. :sunrise_over_mountains:
+  - The **surrounding relief** should also be taken into account:
+    - See the distinction between **"adret" and "ubac"** below.
+    - A mighty mountain **in the west** can obscure the setting sun and **cause an earlier sunset**. :sunrise_over_mountains:
 - The **estimated `shadow` and `wind protection`** can help decide the **direction of the route** (`clockwise` or `counterclockwise`). :arrows_counterclockwise:
   - I personally prefer to **climb hills up on in chilled conditions**, and **going down in hotter conditions**.
+
+|                                                                                                                                                                                                                                                                                                          ![vegetation.gif](media/vegetation.gif)                                                                                                                                                                                                                                                                                                          | 
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Inspecting the **vegetation along this route**, which, according to the elevation profile, consists of a **long climb** followed by a **flat portion on a ridge**. The `open-street-map` layer shows **`forest` as "vegetation type" for the climb** (:evergreen_tree:) while the ridge looks to be more like a **`meadow`** (light gray). The [`komoot-trail-view`](https://support.komoot.com/hc/en-us/articles/4778848157082-Komoot-Trail-View-Show-pictures-of-the-trail), the **satellite view**, and the `google street view` confirm these **vegetation types**. That means the ridge should be **more exposed to sun and wind** that the climb.* |
+
+|                                                                                                                                                          ![adret_ubac.png](media/adret_ubac.png)                                                                                                                                                           | 
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Bonus: Do you know the **terms "adret" and "ubac"** used in the **French Alps**? An **"adret" slope** is the land on the side of a valley that **receives the most sunlight**. Conversely, an **"ubac" slope** refers to the opposite side (cool and dark). ([source of image](https://www.reddit.com/r/geography/comments/11x1hve/the_adret_and_ubac/))* |
 
 </details>
 
@@ -1140,13 +1174,10 @@ Below is a **list of missing features** that **would be very helpful** for plann
   - `komoot` offers some features for **[`mid-Tour route adjustments`](https://www.komoot.com/garmin)**, but the alternative plan is not prepared in advance.
   - Idea: one possible solution is to incorporate **all the alternatives into a single route**, though this may affect the route summary (`elevation`, `distance`).
 
-- :parking: #7 Reliable map of **parking parks**.
-  - A car park may be necessary to determine the **starting point** of the activity.
-  - Idea: My current approach is to search for "parking" on **`Google Maps` using satellite view**, cross-check with **`Google Street View`**, and review the **latest comments** about the parking places to gather details such as size, price, and operating hours.
-  - Having a backup plan is always a good idea.
-
-- filters for `strava-global-heatmap`
-  - mountain-bike
+- :spaghetti: #7 Miscellaneous.
+  - :mountain_bicyclist: **Mountain-bike filter** for `strava-global-heatmap`.
+  - :last_quarter_moon: Map showing **areas that are shaded** given a date and a time. 
+  - :parking: Reliable map of **parking parks**.
 
 </details>
 
@@ -1173,8 +1204,8 @@ While this can often ensure a nice outdoor adventure, a couple of points must be
 #### :bulb: Your suggestions
 
 Please share yours ideas, especially regarding the [still missing](#boom-still-missing) section:
-- :octocat: Either via [GitHub discussion](https://github.com/chauvinSimon/my_route_planning_recipe/discussions) (requires a GitHub account).
-- :writing_hand: Or using [this shared document](todo).
+- :writing_hand: Either using [this simple formular](https://docs.google.com/forms/d/e/1FAIpQLScgrrCysrXNq9Qw0BJqhunEIBJP5DI7sBOo4C_252cmF-BiuA/viewform?usp=pp_url) (answers are collected in [this sheet](https://docs.google.com/spreadsheets/d/1u2Oft7vMjWEVYwtMM103Te_eZmmfZ9dV1k3d8lbGbkc/edit?usp=sharing)).
+- :octocat: Or via [GitHub discussion](https://github.com/chauvinSimon/my_route_planning_recipe/discussions) (requires a GitHub account).
 
 Thank you in advance for your contributions. :pray:
 
@@ -1183,3 +1214,5 @@ Thank you in advance for your contributions. :pray:
 I hope you enjoyed reading this page, and could learn something.
 
 Happy planning, but above all happy outdoor activity! :smiley:
+
+Simon
