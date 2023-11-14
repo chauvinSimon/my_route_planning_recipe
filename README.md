@@ -1196,7 +1196,7 @@ A couple of final suggestions from my side:
 
 - :star_struck: Do not check every detail in advance; leave room for surprise and wonder.
 - :sheep: `strava-global-heatmap` is a fantastic tool, but do not become a [mouton de Panurge](https://www.frenchlearner.com/expressions/comme-les-moutons-de-panurge/), i.e. one sheep who follows a group without thinking for himself.
-- :rescue_worker_helmet: Safety first. Accept to
+- :rescue_worker_helmet: Safety first. Agree to turn back and abandon your plan if the situation becomes too dangerous.
 - :partying_face: A `plan` must stay a `plan`: feel free to **improvise** while on the terrain.
 
 I hope you enjoyed reading this page, and could learn something.
