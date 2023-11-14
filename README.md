@@ -81,7 +81,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
 
 ### :hammer_and_wrench: Essential tools
 
-Below, **two key tools**, that will be utilized throughout the subsequent sections, are introduced:
+Before I begin, I would like to briefly introduce **two key tools**, which will be used in the following sections:
 - **`komoot`**
 - **`strava global heatmap`**
 
@@ -136,13 +136,13 @@ To learn more, refer to:
 
 # 1 :star_struck: Get inspired
 
-:camera_flash: The goal of this section is to **discover interesting places** in a given **destination region**.
+:camera_flash: The goal of this **first section** is to **discover interesting places** in a given **destination region**.
 
 :warning: Please note that this section is **NOT** about:
-- Drawing a route.
-- Checking little details.
+- Drawing a route (done in [section 2 - Draft](#2-paintbrush-draw)).
+- Checking little details (done in [section 3 - Check and adjust](#3-monocle_face-check-and-fine-tune)).
 
-:bulb: There are two types of **_"inspiration"_**:
+:bulb: **_"Inspiration"_** can be divided into two categories:
 - :round_pushpin: **Points**, e.g. a place such a lake, a viewpoint, a summit ...
 - :railway_track: **Routes**, e.g. a tour recommended by a book or completed by someone else.
 
