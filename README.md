@@ -68,7 +68,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
     - [Safety](#rescue_worker_helmet-safety)
     - [Feasibility](#x-heavy_check_mark-feasibility)
     - [Legal](#no_bicycles-legal)
-  - [Temporary blockage](#no_entry-temporary-blockage)
+  - [Road blockage](#no_entry-road-blockage)
   - [Weather](#sun_behind_rain_cloud-weather)
   - [Other maps](#world_map-other-maps) :star:
 - **[Conclusion](#dizzy-conclusion)**
@@ -352,6 +352,12 @@ Several options are available to find a spot for **uphill/downhill** training:
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                  ![uphill.gif](media/uphill.gif)                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | *This example shows how to look for a place in the north of Munich with **cycling climbs**. The `strava-global-heatmap`, with the **`winter` map style**, gives a good overview of the terrain: an area with slope is identified (`Schloss Ottenburg`). Zooming in, a **small yet hilly round tour** is discovered. This place could be very good for an **uphill workout** :weight_lifting:. Then the example switches website and uses the **`strava segment explorer` of [`doogal.co.uk`](https://www.doogal.co.uk/SegmentExplorer)**. The `Schloßberg` segment (`530m` at `5.3%`) is discovered (same hill as the one previously found using the `strava-global-heatmap`). Finally, the **official `strava segment explorer`** is used, but its filter features are **really limited**: only the **`climb category`** criteria, which does not even retrieve the `Schloßberg` segment (probably it is not steep/long enough).* |
+
+:bulb: Tip:
+- [`Quäldich`](https://tourenplaner.quaeldich.de/) (literally _"torture yourself"_ in German) references **road-cycling climbs** (more than [8000 entries](https://www.quaeldich.de/paesse/karte/), mainly in Europe). :mountain:
+  - **Climbs are [evaluated](https://www.quaeldich.de/blog/qualitaetskriterien-des-quaeldich-paesselexikons-jan-erhebt-mahnend-den-zeigefinger/)** by users, who also post comments and pictures.
+  - A **[tour-planning software](https://tourenplaner.quaeldich.de/)** can be downloaded.
+    - Similarly to the `strava-global-heatmap`, **activities of `Quäldich` users are collected, aggregated and displayed** on the map and help planning routes.
 
 </details>
 
@@ -983,26 +989,26 @@ Conclusion of the above example: **do ignore the warnings** and use **diverse in
 
 ---
 
-#### :no_entry: Temporary blockage
+#### :no_entry: Road blockage
 
 <details>
   <summary>Click to expand</summary>
 
-A construction site or a one-day event could **block your route**.
+Verify that your route does not contain any **(temporary) closed road or path**.
 
 ---
 
-##### :construction: Long term blockage
+##### :construction: Permanent blockage
 
-|                                                                                                                                                                            ![barrier.gif](media/barrier.gif)                                                                                                                                                                            | 
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| *Example: imagine you are **looking for a nice spot** to make a break along your route. What about this **small lake**? Trying to add a detour to it only results in an incomplete part. A **lock symbol** can be seen: "`Potentially locked barriers`". This is **confirmed by the pictures** as well as by the `strava global heatmap`: the lake and its beach seem **unreachable**.* |
+|                                                                                                                                                                                   ![barrier.gif](media/barrier.gif)                                                                                                                                                                                    | 
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Example: imagine you are **looking for a nice spot** to make a break along your route. What about this **small lake**? Trying to add a detour to it using `komoot` only results in an incomplete part. A **lock symbol** can be seen: "`Potentially locked barriers`". This is **confirmed by the pictures** as well as by the `strava global heatmap`: the lake and its beach seem **unreachable**.* |
 
 ---
 
-##### :no_entry_sign: Short term blockage
+##### :no_entry_sign: Temporary blockage
 
-For instance, streets could be blocked due to a race, a market, a demonstration, a street festival ...
+**Streets** may be **blocked for a day** (because of a race, a market, a demonstration, a street festival, etc.) or **for longer** (because of a construction site, for example).
 - Such info is **not easy to find**!
 - Looking for **all the events** happening in a given region at a certain date may give hints, but could be very tedious and still incomplete.
 
@@ -1010,7 +1016,13 @@ For instance, streets could be blocked due to a race, a market, a demonstration,
 |:----------------------------------------------------------------------------:| 
 | *The **traffic layer** of `google maps` can show currently blocked streets.* |
 
-The example above **only references current blockages** that **have already started**.
+**Paths** may be closed for **repairs** or as a **precaution after bad weather**, as shown in the example of the [saftey section](#rescue_worker_helmet-safety).
+
+|                                                                                  ![closed_routes.gif](media/swiss_closure.gif)                                                                                   | 
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *The [map](https://map.geo.admin.ch/mobile.html?lang=en) of the excellent [Swiss geographical information platform](https://www.geo.admin.ch/en/) reference the **closed trails** in Switzerland :switzerland:.* |
+
+The examples above **only list _current_ blockages** that **have already started**.
 - It would be nice to know **in advance** which blockages are planned **for a certain date**. See the [still missing](#boom-still-missing) section.
 
 </details>
@@ -1070,7 +1082,7 @@ The **weather conditions along your planned route** can be inspected using diffe
 You can utilize **further different maps** to **refine** your planned tour, for example:
 
 - [:fr:](https://ignrando.fr/)
-- [:switzerland:](https://map.geo.admin.ch/)
+- [:switzerland:](https://map.geo.admin.ch/?lang=en) (this map offers many **interesting layers** :+1:)
 - [`outdoor-active`](https://www.outdooractive.com/)
 
 |                                                                            ![miotte3.gif](media/miotte3.gif)                                                                            | 
@@ -1156,7 +1168,7 @@ Here's a list of **features I'm missing** and that **would be very useful** for 
   - Most maps focus on describing the space. There is **no time dimension**. But indeed maps can change over time: For instance, a **race event** or a **construction site could block certain streets**.
   - Visualizing such **modifications on the map**, based on the **date of the planned activity**, would be beneficial.
   - Idea-1: **local authorities** should be aware of coming events (organizers have declared). Maybe they could communicate this to `komoot` or `strava`.
-  - Idea-2: `google maps` already references some roads that are currently closed, as shown in the [temporary blockage](#no_entry-temporary-blockage) section. 
+  - Idea-2: `google maps` already references some roads that are currently closed, as shown in the [road blockage](#no_entry-road-blockage) section. 
  
 | ![asphalt.jpg](media/asphalt.jpg) | 
 |:---------------------------------:| 
