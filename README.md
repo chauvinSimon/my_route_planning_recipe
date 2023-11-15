@@ -1018,7 +1018,7 @@ Verify that your route does not contain any **(temporary) closed road or path**.
 
 **Paths** may be closed for **repairs** or as a **precaution after bad weather**, as shown in the example of the [saftey section](#rescue_worker_helmet-safety).
 
-|                                                                                  ![closed_routes.gif](media/swiss_closure.gif)                                                                                   | 
+|                                                                                  ![closed_routes.gif](media/swiss_closures.gif)                                                                                  | 
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | *The [map](https://map.geo.admin.ch/mobile.html?lang=en) of the excellent [Swiss geographical information platform](https://www.geo.admin.ch/en/) reference the **closed trails** in Switzerland :switzerland:.* |
 
@@ -1172,7 +1172,7 @@ Here's a list of **features I'm missing** and that **would be very useful** for 
  
 | ![asphalt.jpg](media/asphalt.jpg) | 
 |:---------------------------------:| 
-|             Asphalt.              |
+|           Asphalt :yum:           |
 
 - :motorway: #5 Map with **asphalt quality**.
   - What a pleasure it is to road cycle on **smooth asphalt**, without any irregularities! :hugs:
@@ -1206,13 +1206,13 @@ Thank you in advance for your contributions. :pray:
 
 A couple of final suggestions from my side:
 
-- :star_struck: Do not check every detail in advance; leave room for surprise and wonder.
-- :sheep: `strava-global-heatmap` is a fantastic tool, but do not become a [mouton de Panurge](https://www.frenchlearner.com/expressions/comme-les-moutons-de-panurge/), i.e. one sheep who follows a group without thinking for himself.
-- :rescue_worker_helmet: Safety first. Agree to turn back and abandon your plan if the situation becomes too dangerous.
+- :star_struck: Do not check every detail in advance; **leave room for surprise and wonder**.
+- :sheep: `strava-global-heatmap` is a fantastic tool, but **do not become a [mouton de Panurge](https://www.frenchlearner.com/expressions/comme-les-moutons-de-panurge/)**, i.e. one sheep who follows a group without thinking for himself.
+- :rescue_worker_helmet: Safety first. Agree to turn back and **abandon your plan** if the situation becomes too dangerous.
 - :partying_face: A `plan` must stay a `plan`: feel free to **improvise** while on the terrain.
 
 I hope you enjoyed reading this page, and could learn something.
 
-Happy planning, but above all happy outdoor activity! :smiley:
+Happy planning, but above all **happy outdoor activity!** :smiley:
 
 Simon
