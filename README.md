@@ -6,7 +6,7 @@ On this page, I would like to **share my approach** to **designing routes** for 
 
 :warning: The methodology presented here may not be flawless:
 - Written in **2023**: the showcased features may well become outdated or improved over time.
-- Not exhaustive: be sure to visit the **[missing tools](#boom-missing-tools) section**.
+- Not exhaustive: be sure to visit the **[missing tools](#boom-still-missing) section**.
   - Perhaps you are already aware of existing alternatives, or you have ideas and time to create solution, in which case **please check the [Your suggestions](#bulb-your-suggestions) section**. :pray:
 
 ---
