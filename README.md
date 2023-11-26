@@ -1187,6 +1187,8 @@ Here's a list of **features I'm missing** and that **would be very useful** for 
   - :mountain_bicyclist: **Mountain-bike filter** for `strava-global-heatmap`.
   - :last_quarter_moon: A map showing **shaded areas** based on a date and time.
   - :parking: A reliable map of **car parks** (near your tour starting point).
+  - :pig: One way of answering the question: _"Is this_ **_trail usually muddy_**_?"_
+    - Together with **trail reviews**, some information can help to give a rough estimate: exposure to the sun (**shaded or exposed** area), presence of **springs or small streams** and type of **trail surface**.
 
 </details>
 
