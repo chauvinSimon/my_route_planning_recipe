@@ -139,7 +139,7 @@ To learn more, refer to:
 :camera_flash: The goal of this **first section** is to **discover interesting places** in a given **destination region**.
 
 :warning: Please note that this section is **NOT** about:
-- Drawing a route (done in [section 2 - Draft](#2-paintbrush-draw)).
+- Drawing a route (done in [section 2 - Draft](#2-paintbrush-draft)).
 - Checking little details (done in [section 3 - Check and adjust](#3-monocle_face-check-and-fine-tune)).
 
 :bulb: **_"Inspiration"_** can be divided into two categories:
@@ -148,11 +148,11 @@ To learn more, refer to:
 
 :warning: The methods introduced below **are very diverse**: some **may not be relevant** for your **specific destination and/or activity.**
 
+> Note: if **you already know the region** well, you can jump directly to the [next section about `drafting` routes](#2-paintbrush-draft) :wink:
+
 ---
 
 ## 1.1 :pushpin: Points
-
-> Note: if **you already know the region** well, you can jump directly to the [next section about `drawing` routes](#23-paintbrush-draw) :wink:
 
 ---
 
@@ -400,7 +400,7 @@ One solution is [`My Maps`](https://www.google.com/maps) from `Google`.
 
 ## 1.2 Routes
 
-:point_up: We continue here **_[section 1 - get inspired](#1-star_struck-get-inspired)_**, which is about **finding ideas** before creating a route ([section 2](#2-paintbrush-draw)) and verifying it _[section 3](#3-monocle_face-check-and-fine-tune)_.
+:point_up: We continue here **_[section 1 - get inspired](#1-star_struck-get-inspired)_**, which is about **finding ideas** before creating a route ([section 2](#2-paintbrush-draft)) and verifying it _[section 3](#3-monocle_face-check-and-fine-tune)_.
 - Ideas in the **form of "waypoints"** have been collected in the previous subsection (**_[1.1 points](#11-pushpin-points)_**).
 - This subsection focuses on **finding inspiration** from **already existing routes**.
 
