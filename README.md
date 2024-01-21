@@ -954,6 +954,15 @@ It needs to be checked that the route you have just created is **safe**, **feasi
 |:-----------------------------------------------------------------------------------------------------------------------------:| 
 | *Checking the **list of opened and closed paths** on an **official website**. Making sure the information is **up-to-date**.* |
 
+What about tours that do not involve off-road routes? The data on **reported accidents involving cyclists** could be utilized to tailor **road cycling** routes.
+- Several websites present statistics on **road traffic accidents** based on local police reports.
+- For instance [unfallatlas.statistikportal.de](https://unfallatlas.statistikportal.de/) in Germany.
+- Perhaps, considering the **ratio of `accidents/traffic` may be more pertinent** than focusing solely on the absolute number of accidents.
+
+|                                            ![accidents.gif](media/accidents.gif)                                             | 
+|:----------------------------------------------------------------------------------------------------------------------------:| 
+| *Examining the map of **reported accidents with personal injury** and applying the `"Accidents involving bicycles"` filter.* |
+
 </details>
 
 ##### :x: :heavy_check_mark: Feasibility
