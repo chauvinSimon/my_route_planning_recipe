@@ -1,4 +1,4 @@
-(:hourglass: *If some animations are not loaded, try to refresh the page.* :repeat:)
+( :hourglass: *If some animations are not loaded, try to refresh the page.* :repeat: )
 
 # :world_map: MY ROUTE PLANNING RECIPE :cartwheeling:
 
