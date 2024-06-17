@@ -1194,10 +1194,18 @@ Here's a list of **features I'm missing** and that **would be very useful** for 
 
 - :spaghetti: #7 Miscellaneous.
   - :mountain_bicyclist: **Mountain-bike filter** for `strava-global-heatmap`.
+    - [2024.05] Now available :partying_face:. Together with other filters such as `Gravel Ride` and `E-Mountain Bike Ride`.
+    - For some regions, these filters provide an empty heatmap despite a high volume of traffic: most `strava` users probably do not specify the activity type and the default setting (`Ride`) is applied.
+    - It would be nice to be able to **apply multiple filters**. For instance `Gravel Ride` AND `Mountain Bike Ride`.
   - :last_quarter_moon: A map showing **shaded areas** based on a date and time.
   - :parking: A reliable map of **car parks** (near your tour starting point).
   - :pig: One way of answering the question: _"Is this_ **_trail usually muddy_**_?"_
     - Together with **trail reviews**, some information can help to give a rough estimate: exposure to the sun (**shaded or exposed** area), presence of **springs or small streams** and type of **trail surface**.
+  - :cloud_with_rain: The amount of precipitation that has fallen in a region in the last few days (e.g. in the last 72 hours).
+    - Either as a map or as a number.
+    - To be able to estimate how muddy paths can be.
+  - :potable_water: A map showing free drinking water sources.
+    - Some are already marked in `komoot` as "highlight".
 
 </details>
 
