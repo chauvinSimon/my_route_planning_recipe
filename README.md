@@ -954,6 +954,8 @@ It needs to be checked that the route you have just created is **safe**, **feasi
 |:-----------------------------------------------------------------------------------------------------------------------------:| 
 | *Checking the **list of opened and closed paths** on an **official website**. Making sure the information is **up-to-date**.* |
 
+---
+
 What about tours that do not involve off-road routes? The data on **reported accidents involving cyclists** could be utilized to tailor **road cycling** routes.
 - Several websites present statistics on **road traffic accidents** based on local police reports.
 - For instance [unfallatlas.statistikportal.de](https://unfallatlas.statistikportal.de/) in Germany.
@@ -962,6 +964,19 @@ What about tours that do not involve off-road routes? The data on **reported acc
 |                                            ![accidents.gif](media/accidents.gif)                                             | 
 |:----------------------------------------------------------------------------------------------------------------------------:| 
 | *Examining the map of **reported accidents with personal injury** and applying the `"Accidents involving bicycles"` filter.* |
+
+---
+
+Similar to how [Waze](https://www.waze.com/) allows car-drivers to report various types of information (e.g. traffic jams, police presence, crashes, road hazards ...), Garmin has introduced a ["community generated road hazards"](https://support.garmin.com/en-US/?faq=NH7WCMesvK3XU1gurECewA) feature for cyclists:
+
+> "During a ride with a compatible Edge® cycling computer, **you can report a hazard** that might be a potential risk to a cyclist. You can also confirm a hazard recognized by another Edge user, or report that the threat is no longer present."
+
+|                                                                                                              ![garmin_hazard.gif](media/garmin_hazard.gif)                                                                                                              | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *Among the [five types of reportable hazards](https://support.garmin.com/en-US/?faq=NH7WCMesvK3XU1gurECewA), **"pothole"** (left) warns for ruts or fractured road, while **"animal"** (right) notifies users of an unleashed or aggressive dog or dangerous wildlife.* |
+
+When uploading a `.gpx` file to **[Garmin Connect](https://connect.garmin.com/)**, hazards along the course **automatically appear**, regardless of your Garmin device.
+- Therefore, owning an Garmin Edge® cycling computer is only necessary for reporting hazards or receiving alerts **during the ride**.
 
 </details>
 
