@@ -1113,6 +1113,22 @@ You can utilize **further different maps** to **refine** your planned tour, for 
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | *The **maps of `komoot` and `IGN` differ**: some paths exist on one map and not on the other. The `strava-global-heatmap` shows that the **`komoot` map seems to be more up-to-date**.* |
 
+---
+
+**Satellite imagery** can help to:
+- Draw routes **more accurately**.
+- Discover **non-listed paths**.
+- Assess the **`way type`** and **`surface type`** of a path.
+- Estimate **sun or shade exposure** along the route.
+
+|                                                                                                                              ![satellite.gif](media/satellite.gif)                                                                                                                               | 
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| *In this example, **satellite images** help **refine waypoints** on an **already listed path**, discover an **unlisted trail**, and evaluate its `way type` and `surface type`. Doesn't this track look amazing? Tools like `google maps` and `strava-global-heatmap` further confirm findings.* |
+
+:bulb: Tips:
+- Cross-reference **multiple image providers**.
+- Check the image **capture dates** to ensure the data is current.
+
 </details>
 
 ---
@@ -1207,11 +1223,23 @@ Here's a list of **features I'm missing** and that **would be very useful** for 
   - `komoot` offers some features for **[`mid-Tour route adjustments`](https://www.komoot.com/garmin)**, but the alternative plan is not prepared in advance.
   - Idea: one possible solution is to incorporate **all the alternatives into a single route**, this may affect the route summary (`elevation`, `distance`) though.
 
-- :spaghetti: #7 Miscellaneous.
-  - :mountain_bicyclist: **Mountain-bike filter** for `strava-global-heatmap`.
-    - [2024.05] Now available :partying_face:. Together with other filters such as `Gravel Ride` and `E-Mountain Bike Ride`.
-    - For some regions, these filters provide an empty heatmap despite a high volume of traffic: most `strava` users probably do not specify the activity type and the default setting (`Ride`) is applied.
-    - It would be nice to be able to **apply multiple filters**. For instance `Gravel Ride` AND `Mountain Bike Ride`.
+- :mountain_bicyclist: #7 **Mountain-bike filter** for `strava-global-heatmap`.
+  - [2024.05] Now available :partying_face:. Together with other filters such as `Gravel Ride` and `E-Mountain Bike Ride`.
+  - For some regions, these filters provide an empty heatmap despite a high volume of traffic: most `strava` users probably do not specify the activity type and the default setting (`Ride`) is applied.
+  - It would be nice to be able to **apply multiple filters**. For instance `Gravel Ride` AND `Mountain Bike Ride`.
+
+- :snowflake: #8 Check for **snow on a trail**.
+  - While some ski mountaineering enthusiasts **actively seek out snow-covered trails**, mountain bikers and trail runners generally **prefer to avoid it**.
+  - Methods include:
+    - Talk to others and consult recent reports and **pictures from fellow hikers** on platforms like Strava.
+    - Use near-real-time **satellite and webcams images** to view current trail conditions and identify snow coverage.
+    - Evaluate key trail factors such as **elevation, orientation (north/south), and sun exposure** to predict potential snow accumulation.
+    - Analyse recent activity data for **unusual slowdowns** or detours, which may indicate challenging snowy sections.
+  - This [2021 article by skimag.com](https://www.skimag.com/gear/how-to-check-for-snow-on-the-trail/) lists some good tips, while advertising for the US [Gaia GPS](https://www.gaiagps.com/) tool.
+
+- :spaghetti: #9 Miscellaneous.
+  - :bar_chart: `komoot` already [indicates the level of a path](#bar_chart-trail-level--difficulty), when zooming in on it.
+    - It would be nice to have an **overview of the technical difficulty** for the whole route, e.g. _"how many percent of T0, T1, T2, ...?"_, as it is already done for the `way type` and `surface type`.
   - :last_quarter_moon: A map showing **shaded areas** based on a date and time.
   - :parking: A reliable map of **car parks** (near your tour starting point).
   - :pig: One way of answering the question: _"Is this_ **_trail usually muddy_**_?"_
